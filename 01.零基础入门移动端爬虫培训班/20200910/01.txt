@@ -1,0 +1,2262 @@
+[
+  {
+    "type": "function",
+    "name": "SSL_use_certificate_ASN1",
+    "address": "0x74c5b8f450"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_dos_protection_cb",
+    "address": "0x74c5b96514"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_set_ex_data",
+    "address": "0x74c5b9867c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_session_psk_dhe_timeout",
+    "address": "0x74c5b994f4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_accept",
+    "address": "0x74c5b950f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_select_next_proto",
+    "address": "0x74c5b957c4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_set_remove_cb",
+    "address": "0x74c5b95f9c"
+  },
+  {
+    "type": "function",
+    "name": "PEM_read_SSL_SESSION",
+    "address": "0x74c5b9cb78"
+  },
+  {
+    "type": "function",
+    "name": "SSL_enable_ocsp_stapling",
+    "address": "0x74c5b95654"
+  },
+  {
+    "type": "function",
+    "name": "SSL_reset_early_data_reject",
+    "address": "0x74c5b947f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_verify_callback",
+    "address": "0x74c5b99668"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_info_callback",
+    "address": "0x74c5b95fa4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_alert_desc_string",
+    "address": "0x74c5b99d68"
+  },
+  {
+    "type": "function",
+    "name": "d2i_SSL_SESSION",
+    "address": "0x74c5b9ca68"
+  },
+  {
+    "type": "function",
+    "name": "DTLSv1_server_method",
+    "address": "0x74c5b84894"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_min_proto_version",
+    "address": "0x74c5b9aac8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set0_verify_cert_store",
+    "address": "0x74c5b9d2dc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_use_RSAPrivateKey_file",
+    "address": "0x74c5b934ac"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set1_tls_channel_id",
+    "address": "0x74c5b95a70"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_client_random",
+    "address": "0x74c5b96640"
+  },
+  {
+    "type": "function",
+    "name": "TLSv1_2_method",
+    "address": "0x74c5ba8668"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_get_bits",
+    "address": "0x74c5b920d4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_alpn_select_cb",
+    "address": "0x74c5b9598c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_fd",
+    "address": "0x74c5b94c14"
+  },
+  {
+    "type": "function",
+    "name": "DTLSv1_2_method",
+    "address": "0x74c5b84888"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_timeout",
+    "address": "0x74c5b994e8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_structure_sizes",
+    "address": "0x74c5b96450"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_signed_cert_timestamp_list",
+    "address": "0x74c5b902f4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_cache_full",
+    "address": "0x74c5b950f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_verify_result",
+    "address": "0x74c5b9ba54"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_signing_algorithm_prefs",
+    "address": "0x74c5b96ff4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_is_AES256CBC",
+    "address": "0x74c5b91f44"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_get_ex_new_index",
+    "address": "0x74c5b98610"
+  },
+  {
+    "type": "function",
+    "name": "TLS_server_method",
+    "address": "0x74c5ba865c"
+  },
+  {
+    "type": "function",
+    "name": "TLSv1_server_method",
+    "address": "0x74c5ba8680"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_use_certificate_file",
+    "address": "0x74c5b9337c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_read_ahead",
+    "address": "0x74c5b950f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_num_renegotiations",
+    "address": "0x74c5b951a4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_servername",
+    "address": "0x74c5b95594"
+  },
+  {
+    "type": "function",
+    "name": "SSL_write",
+    "address": "0x74c5b944b8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_cipher_list",
+    "address": "0x74c5b954d8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_COMP_get_compression_methods",
+    "address": "0x74c5b922c4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_default_passwd_cb",
+    "address": "0x74c5b93844"
+  },
+  {
+    "type": "function",
+    "name": "SSL_load_client_CA_file",
+    "address": "0x74c5b92d10"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_read_sequence",
+    "address": "0x74c5b965d0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_clear_chain_certs",
+    "address": "0x74c5b9c86c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_is_static_RSA",
+    "address": "0x74c5b91fa0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_max_cert_list",
+    "address": "0x74c5b951b0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_connect_state",
+    "address": "0x74c5b93fbc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_shutdown",
+    "address": "0x74c5b95ec0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_shutdown",
+    "address": "0x74c5b945ec"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set1_curves",
+    "address": "0x74c5b95418"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_tmp_dh_callback",
+    "address": "0x74c5b922d4"
+  },
+  {
+    "type": "function",
+    "name": "DTLSv1_2_server_method",
+    "address": "0x74c5b84888"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_info_callback",
+    "address": "0x74c5b99678"
+  },
+  {
+    "type": "function",
+    "name": "SSL_extension_supported",
+    "address": "0x74c5b9f644"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_cipher_by_value",
+    "address": "0x74c5b90484"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_certificate",
+    "address": "0x74c5b9c4f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_tlsext_use_srtp",
+    "address": "0x74c5b8482c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_allow_unknown_alpn_protos",
+    "address": "0x74c5b959f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_use_psk_identity_hint",
+    "address": "0x74c5b960f4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set0_chain",
+    "address": "0x74c5b9c5c0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_send_fatal_alert",
+    "address": "0x74c5b9470c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_is_block_cipher",
+    "address": "0x74c5b91f68"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_psk_identity",
+    "address": "0x74c5b961a0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_verify_algorithm_prefs",
+    "address": "0x74c5b970e4"
+  },
+  {
+    "type": "function",
+    "name": "TLSv1_1_server_method",
+    "address": "0x74c5ba8674"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_cert_cb",
+    "address": "0x74c5b90058"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get0_peer_certificates",
+    "address": "0x74c5b90070"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_is_AES",
+    "address": "0x74c5b91edc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_is_CHACHA20POLY1305",
+    "address": "0x74c5b91f50"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get0_privatekey",
+    "address": "0x74c5b95e0c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_keylog_callback",
+    "address": "0x74c5b96200"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set1_chain",
+    "address": "0x74c5b9c6b8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_use_RSAPrivateKey_file",
+    "address": "0x74c5b9313c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_enable_signed_cert_timestamps",
+    "address": "0x74c5b95614"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_tlsext_ticket_key_cb",
+    "address": "0x74c5b95408"
+  },
+  {
+    "type": "function",
+    "name": "SSL_clear_options",
+    "address": "0x74c5b949f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_chain_and_key",
+    "address": "0x74c5b8f200"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get0_session_id_context",
+    "address": "0x74c5b94bf4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_session_cache_mode",
+    "address": "0x74c5b95320"
+  },
+  {
+    "type": "function",
+    "name": "SSL_add0_chain_cert",
+    "address": "0x74c5b9c788"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_select_certificate_cb",
+    "address": "0x74c5b9650c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_tmp_rsa_callback",
+    "address": "0x74c5b922d4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_servername_type",
+    "address": "0x74c5b955e4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_wfd",
+    "address": "0x74c5b94db8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_extra_chain_certs",
+    "address": "0x74c5b9c8c0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_to_bytes_for_ticket",
+    "address": "0x74c5b8dc48"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_tlsext_ticket_keys",
+    "address": "0x74c5b95328"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_session",
+    "address": "0x74c5b98564"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set1_curves",
+    "address": "0x74c5b95438"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_use_certificate_chain_file",
+    "address": "0x74c5b936e8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_early_data_enabled",
+    "address": "0x74c5b94778"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_SSL_CTX",
+    "address": "0x74c5b95f28"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_accept_renegotiate",
+    "address": "0x74c5b950f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get0_server_requested_CAs",
+    "address": "0x74c5b9008c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_new",
+    "address": "0x74c5b9386c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_timeouts",
+    "address": "0x74c5b950f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_max_cert_list",
+    "address": "0x74c5b951cc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_use_RSAPrivateKey_ASN1",
+    "address": "0x74c5b96de8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_use_RSAPrivateKey",
+    "address": "0x74c5b96d44"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_cert_cb",
+    "address": "0x74c5b90064"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_info_callback",
+    "address": "0x74c5b95f9c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_accept",
+    "address": "0x74c5b94210"
+  },
+  {
+    "type": "function",
+    "name": "SSL_clear",
+    "address": "0x74c5b96748"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_fd",
+    "address": "0x74c5b94ce4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_is_init_finished",
+    "address": "0x74c5b96408"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set0_buffer_pool",
+    "address": "0x74c5b94a74"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_tls13_variant",
+    "address": "0x74c5b94798"
+  },
+  {
+    "type": "function",
+    "name": "SSL_renegotiate_pending",
+    "address": "0x74c5b95170"
+  },
+  {
+    "type": "function",
+    "name": "DTLSv1_set_initial_timeout_duration",
+    "address": "0x74c5b8393c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_set_get_cb",
+    "address": "0x74c5b99670"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_use_certificate_ASN1",
+    "address": "0x74c5b8f404"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_renegotiate_mode",
+    "address": "0x74c5b9651c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_verify_result",
+    "address": "0x74c5b9ba40"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_verify",
+    "address": "0x74c5b9b9fc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_add_extra_chain_cert",
+    "address": "0x74c5b9c6f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_chain_and_key",
+    "address": "0x74c5b8f0c0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_enable_ocsp_stapling",
+    "address": "0x74c5b95644"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_tlsext_servername_callback",
+    "address": "0x74c5b957a4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_get_version",
+    "address": "0x74c5b9b0f4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set1_param",
+    "address": "0x74c5b9b9c4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get0_param",
+    "address": "0x74c5b95308"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_cert_store",
+    "address": "0x74c5b9ba7c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_standard_name",
+    "address": "0x74c5b9202c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_max_cert_list",
+    "address": "0x74c5b951b8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_number",
+    "address": "0x74c5b952f0"
+  },
+  {
+    "type": "function",
+    "name": "SSLv23_client_method",
+    "address": "0x74c5ba865c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_ex_data",
+    "address": "0x74c5b960dc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_current_expansion",
+    "address": "0x74c5b922c4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_get_get_cb",
+    "address": "0x74c5b98488"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_early_data_enabled",
+    "address": "0x74c5b947a8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_max_proto_version",
+    "address": "0x74c5b9ac44"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_misses",
+    "address": "0x74c5b950f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_export_keying_material",
+    "address": "0x74c5b9e0bc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_is_AEAD",
+    "address": "0x74c5b91f10"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_grease_enabled",
+    "address": "0x74c5b96724"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_tlsext_servername_arg",
+    "address": "0x74c5b957b4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_get_max_version",
+    "address": "0x74c5b91fec"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_hits",
+    "address": "0x74c5b950f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_has_SHA256_HMAC",
+    "address": "0x74c5b91ef8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_use_RSAPrivateKey_ASN1",
+    "address": "0x74c5b96ba4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_is_NULL",
+    "address": "0x74c5b91f5c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_read",
+    "address": "0x74c5b94238"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_retain_only_sha256_of_client_certs",
+    "address": "0x74c5b966fc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_use_RSAPrivateKey",
+    "address": "0x74c5b96a64"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_server_tmp_key",
+    "address": "0x74c5b922c4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_session_reused",
+    "address": "0x74c5b95e40"
+  },
+  {
+    "type": "function",
+    "name": "SSL_in_early_data",
+    "address": "0x74c5b947c8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_secure_renegotiation_support",
+    "address": "0x74c5b95290"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_clear_mode",
+    "address": "0x74c5b94a28"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_tmp_dh",
+    "address": "0x74c5b922cc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_selected_srtp_profile",
+    "address": "0x74c5b84824"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_mode",
+    "address": "0x74c5b94a3c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_quiet_shutdown",
+    "address": "0x74c5b95e9c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_dup",
+    "address": "0x74c5b97f18"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_up_ref",
+    "address": "0x74c5b93c18"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_tls13_variant",
+    "address": "0x74c5b947a0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_remove_session",
+    "address": "0x74c5b9944c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_get0_peer",
+    "address": "0x74c5b98488"
+  },
+  {
+    "type": "function",
+    "name": "PEM_write_bio_SSL_SESSION",
+    "address": "0x74c5b9cbac"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_peer_full_cert_chain",
+    "address": "0x74c5b9b988"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_mode",
+    "address": "0x74c5b94a14"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_verify_callback",
+    "address": "0x74c5b9b9f4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_add_client_CA",
+    "address": "0x74c5b9d000"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_privatekey",
+    "address": "0x74c5b95df4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_set_timeout",
+    "address": "0x74c5b984f0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get0_alpn_selected",
+    "address": "0x74c5b95994"
+  },
+  {
+    "type": "function",
+    "name": "SSL_generate_key_block",
+    "address": "0x74c5b9dc14"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_set_cache_size",
+    "address": "0x74c5b952f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_ex_data",
+    "address": "0x74c5b96060"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_is_ECDHE",
+    "address": "0x74c5b91f94"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_ticket_aead_method",
+    "address": "0x74c5b96a38"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_client_CA_list",
+    "address": "0x74c5b9cc60"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_has_SHA1_HMAC",
+    "address": "0x74c5b91eec"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_use_PrivateKey",
+    "address": "0x74c5b96eac"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_max_cert_list",
+    "address": "0x74c5b951d4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_add_client_custom_ext",
+    "address": "0x74c5b82428"
+  },
+  {
+    "type": "function",
+    "name": "SSL_enable_tls_channel_id",
+    "address": "0x74c5b95a58"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_finished",
+    "address": "0x74c5b94f20"
+  },
+  {
+    "type": "function",
+    "name": "DTLS_server_method",
+    "address": "0x74c5b8487c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_quiet_shutdown",
+    "address": "0x74c5b95e74"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_signed_cert_timestamp_list",
+    "address": "0x74c5b903bc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_read_ahead",
+    "address": "0x74c5b922d4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_certs_clear",
+    "address": "0x74c5b94c0c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_enable_signed_cert_timestamps",
+    "address": "0x74c5b95634"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_msg_callback_arg",
+    "address": "0x74c5b961f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_get_ex_data",
+    "address": "0x74c5b98684"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_session_id_context",
+    "address": "0x74c5b94b9c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sessions",
+    "address": "0x74c5b952e8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_state",
+    "address": "0x74c5b95fac"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set1_verify_cert_store",
+    "address": "0x74c5b9d2a0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_tmp_dh_callback",
+    "address": "0x74c5b922d4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_clear_extra_chain_certs",
+    "address": "0x74c5b9c818"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_check_private_key",
+    "address": "0x74c5b95120"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_ciphers",
+    "address": "0x74c5b954ac"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_ed25519_enabled",
+    "address": "0x74c5b9eaac"
+  },
+  {
+    "type": "function",
+    "name": "SSLv3_server_method",
+    "address": "0x74c5ba868c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_session_id_context",
+    "address": "0x74c5b94b44"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_psk_identity_hint",
+    "address": "0x74c5b96194"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_rfd",
+    "address": "0x74c5b94e6c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_use_PrivateKey_file",
+    "address": "0x74c5b9325c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get0_certificate_types",
+    "address": "0x74c5b95bc0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_version",
+    "address": "0x74c5b9af68"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_add1_chain_cert",
+    "address": "0x74c5b9c748"
+  },
+  {
+    "type": "function",
+    "name": "SSL_max_seal_overhead",
+    "address": "0x74c5ba8968"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_cb_hits",
+    "address": "0x74c5b950f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_options",
+    "address": "0x74c5b949b4"
+  },
+  {
+    "type": "function",
+    "name": "TLSv1_2_server_method",
+    "address": "0x74c5ba8668"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_error",
+    "address": "0x74c5b94870"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_purpose",
+    "address": "0x74c5b9b9a4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_trust",
+    "address": "0x74c5b9b9bc"
+  },
+  {
+    "type": "function",
+    "name": "BIO_f_ssl",
+    "address": "0x74c5b81c0c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_peer_certificate",
+    "address": "0x74c5b9b87c"
+  },
+  {
+    "type": "function",
+    "name": "DTLSv1_method",
+    "address": "0x74c5b84894"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_get_remove_cb",
+    "address": "0x74c5b95fa4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_max_send_fragment",
+    "address": "0x74c5b951e8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_next_proto_select_cb",
+    "address": "0x74c5b958d4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_tls_unique",
+    "address": "0x74c5b94a7c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_load_error_strings",
+    "address": "0x74c5b922d4"
+  },
+  {
+    "type": "function",
+    "name": "SSLv23_method",
+    "address": "0x74c5ba865c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set1_verify_cert_store",
+    "address": "0x74c5b9d30c"
+  },
+  {
+    "type": "function",
+    "name": "DTLSv1_client_method",
+    "address": "0x74c5b84894"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_ciphers",
+    "address": "0x74c5b954b8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_wfd",
+    "address": "0x74c5b94c7c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_strict_cipher_list",
+    "address": "0x74c5b95578"
+  },
+  {
+    "type": "function",
+    "name": "SSL_use_PrivateKey",
+    "address": "0x74c5b96c14"
+  },
+  {
+    "type": "function",
+    "name": "i2d_SSL_SESSION_bio",
+    "address": "0x74c5b9cb28"
+  },
+  {
+    "type": "function",
+    "name": "SSL_pending",
+    "address": "0x74c5b95100"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_tlsext_ticket_keys",
+    "address": "0x74c5b95398"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get0_signed_cert_timestamp_list",
+    "address": "0x74c5b95664"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_verify_mode",
+    "address": "0x74c5b9b9e4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set0_chain",
+    "address": "0x74c5b9c65c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_free",
+    "address": "0x74c5b98248"
+  },
+  {
+    "type": "function",
+    "name": "SSL_check_private_key",
+    "address": "0x74c5b9512c"
+  },
+  {
+    "type": "function",
+    "name": "TLS_method",
+    "address": "0x74c5ba865c"
+  },
+  {
+    "type": "function",
+    "name": "TLSv1_method",
+    "address": "0x74c5ba8680"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_shutdown",
+    "address": "0x74c5b95efc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_read_ahead",
+    "address": "0x74c5b922d4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_strict_cipher_list",
+    "address": "0x74c5b93af8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_server_random",
+    "address": "0x74c5b96690"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_private_key_digest_prefs",
+    "address": "0x74c5b9715c"
+  },
+  {
+    "type": "function",
+    "name": "TLS_client_method",
+    "address": "0x74c5ba865c"
+  },
+  {
+    "type": "function",
+    "name": "TLSv1_client_method",
+    "address": "0x74c5ba8680"
+  },
+  {
+    "type": "function",
+    "name": "SSL_peek",
+    "address": "0x74c5b944b0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_options",
+    "address": "0x74c5b949e4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_use_psk_identity_hint",
+    "address": "0x74c5b9618c"
+  },
+  {
+    "type": "function",
+    "name": "PEM_read_bio_SSL_SESSION",
+    "address": "0x74c5b9cb44"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_purpose",
+    "address": "0x74c5b9b9ac"
+  },
+  {
+    "type": "function",
+    "name": "SSL_alert_type_string",
+    "address": "0x74c5b99d5c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_cert_verify_callback",
+    "address": "0x74c5b9ba14"
+  },
+  {
+    "type": "function",
+    "name": "SSL_connect",
+    "address": "0x74c5b941e8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_client_CA_list",
+    "address": "0x74c5b9cdc8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_library_init",
+    "address": "0x74c5b93854"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_mtu",
+    "address": "0x74c5b95238"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_tmp_ecdh",
+    "address": "0x74c5b9698c"
+  },
+  {
+    "type": "function",
+    "name": "DTLSv1_2_client_method",
+    "address": "0x74c5b84888"
+  },
+  {
+    "type": "function",
+    "name": "ERR_load_SSL_strings",
+    "address": "0x74c5b922d4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_min_proto_version",
+    "address": "0x74c5b9a7dc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_private_key_method",
+    "address": "0x74c5b96fe8"
+  },
+  {
+    "type": "function",
+    "name": "PEM_write_SSL_SESSION",
+    "address": "0x74c5b9cbfc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_set_new_cb",
+    "address": "0x74c5b99660"
+  },
+  {
+    "type": "function",
+    "name": "SSL_cutthrough_complete",
+    "address": "0x74c5b9642c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_tmp_rsa",
+    "address": "0x74c5b922cc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_accept_state",
+    "address": "0x74c5b93fd8"
+  },
+  {
+    "type": "function",
+    "name": "TLSv1_1_client_method",
+    "address": "0x74c5ba8674"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_ivs",
+    "address": "0x74c5b96524"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_free",
+    "address": "0x74c5b93b14"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_connect_renegotiate",
+    "address": "0x74c5b950f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_ex_new_index",
+    "address": "0x74c5b95ff4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_bio",
+    "address": "0x74c5b9404c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_version",
+    "address": "0x74c5b9afdc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_default_passwd_cb_userdata",
+    "address": "0x74c5b9384c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_use_PrivateKey_ASN1",
+    "address": "0x74c5b96c4c"
+  },
+  {
+    "type": "function",
+    "name": "d2i_SSL_SESSION_bio",
+    "address": "0x74c5b9ca38"
+  },
+  {
+    "type": "function",
+    "name": "TLSv1_1_method",
+    "address": "0x74c5ba8674"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_ex_new_index",
+    "address": "0x74c5b96070"
+  },
+  {
+    "type": "function",
+    "name": "SSL_alert_type_string_long",
+    "address": "0x74c5b99d2c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_default_verify_paths",
+    "address": "0x74c5b9ba30"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set1_curves_list",
+    "address": "0x74c5b95474"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_get_new_cb",
+    "address": "0x74c5b99668"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_timeout",
+    "address": "0x74c5b994bc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_is_AESGCM",
+    "address": "0x74c5b91f1c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_session_cache_mode",
+    "address": "0x74c5b95310"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set1_curves_list",
+    "address": "0x74c5b95458"
+  },
+  {
+    "type": "function",
+    "name": "SSL_do_handshake",
+    "address": "0x74c5b94118"
+  },
+  {
+    "type": "function",
+    "name": "SSL_want",
+    "address": "0x74c5b960ec"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_use_PrivateKey_file",
+    "address": "0x74c5b935c8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_total_renegotiations",
+    "address": "0x74c5b951a4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_COMP_free_compression_methods",
+    "address": "0x74c5b922d4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_cipher_list",
+    "address": "0x74c5b95544"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_quiet_shutdown",
+    "address": "0x74c5b95eb4"
+  },
+  {
+    "type": "function",
+    "name": "BIO_set_ssl",
+    "address": "0x74c5b81c18"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_key_block_len",
+    "address": "0x74c5b9dbf4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_private_key_method",
+    "address": "0x74c5b96fdc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_is_AES128GCM",
+    "address": "0x74c5b91f2c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_curve_name",
+    "address": "0x74c5b92370"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_trust",
+    "address": "0x74c5b9b9b4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set1_param",
+    "address": "0x74c5b9b9cc"
+  },
+  {
+    "type": "function",
+    "name": "SSLv3_method",
+    "address": "0x74c5ba868c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_ex_data",
+    "address": "0x74c5b960e4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_tls_channel_id_enabled",
+    "address": "0x74c5b95a10"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_tmp_rsa",
+    "address": "0x74c5b922cc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_verify_depth",
+    "address": "0x74c5b9b9dc"
+  },
+  {
+    "type": "function",
+    "name": "i2d_SSL_SESSION",
+    "address": "0x74c5b8dc50"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_tmp_ecdh",
+    "address": "0x74c5b968e0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_up_ref",
+    "address": "0x74c5b98448"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_mode",
+    "address": "0x74c5b94a6c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_get_name",
+    "address": "0x74c5b92014"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get0_certificate",
+    "address": "0x74c5b9c544"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_current_compression",
+    "address": "0x74c5b922c4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_verify_depth",
+    "address": "0x74c5b9b9ec"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set1_chain",
+    "address": "0x74c5b9c61c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get0_ocsp_response",
+    "address": "0x74c5b956bc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_mode",
+    "address": "0x74c5b94a44"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set1_tls_channel_id",
+    "address": "0x74c5b95af4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get0_param",
+    "address": "0x74c5b9b9d4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_peer_signature_algorithm",
+    "address": "0x74c5b96624"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_channel_id_cb",
+    "address": "0x74c5b99690"
+  },
+  {
+    "type": "function",
+    "name": "SSL_alert_desc_string_long",
+    "address": "0x74c5b99d74"
+  },
+  {
+    "type": "function",
+    "name": "SSL_add1_chain_cert",
+    "address": "0x74c5b9c7d8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_SSL_CTX",
+    "address": "0x74c5b95f20"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_tls_channel_id",
+    "address": "0x74c5b95b78"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_set1_id_context",
+    "address": "0x74c5b98504"
+  },
+  {
+    "type": "function",
+    "name": "SSL_is_dtls",
+    "address": "0x74c5b95284"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_write_sequence",
+    "address": "0x74c5b965f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_connect_good",
+    "address": "0x74c5b950f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_clear_options",
+    "address": "0x74c5b949c8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_quiet_shutdown",
+    "address": "0x74c5b95e90"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_is_ECDSA",
+    "address": "0x74c5b91f88"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_rbio",
+    "address": "0x74c5b940ec"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_alpn_protos",
+    "address": "0x74c5b958dc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_tlsext_host_name",
+    "address": "0x74c5b95714"
+  },
+  {
+    "type": "function",
+    "name": "SSL_need_tmp_RSA",
+    "address": "0x74c5b950f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_cert_store",
+    "address": "0x74c5b9ba84"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_get_rfc_name",
+    "address": "0x74c5b920c4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_clear_mode",
+    "address": "0x74c5b94a58"
+  },
+  {
+    "type": "function",
+    "name": "SSL_state_string_long",
+    "address": "0x74c5b99698"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_add_session",
+    "address": "0x74c5b9911c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set0_rbio",
+    "address": "0x74c5b93ff4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_description",
+    "address": "0x74c5b92138"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_default_timeout",
+    "address": "0x74c5b95138"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_session",
+    "address": "0x74c5b99454"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_new",
+    "address": "0x74c5b97e84"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_pending_cipher",
+    "address": "0x74c5b966e0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_msg_callback_arg",
+    "address": "0x74c5b961e8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_ex_data",
+    "address": "0x74c5b96068"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_tlsext_use_srtp",
+    "address": "0x74c5b84854"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_verify_mode",
+    "address": "0x74c5b95078"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_info_callback",
+    "address": "0x74c5b99680"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_ocsp_response",
+    "address": "0x74c5b903c4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_srtp_profiles",
+    "address": "0x74c5b84804"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get1_session",
+    "address": "0x74c5b985ac"
+  },
+  {
+    "type": "function",
+    "name": "SSLv23_server_method",
+    "address": "0x74c5ba865c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_connect",
+    "address": "0x74c5b950f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_peer_finished",
+    "address": "0x74c5b94fcc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_cipher_list",
+    "address": "0x74c5b9555c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get0_next_proto_negotiated",
+    "address": "0x74c5b958b0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_get_time",
+    "address": "0x74c5b9847c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_retain_only_sha256_of_client_certs",
+    "address": "0x74c5b96714"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_state",
+    "address": "0x74c5b922d4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_peer_cert_chain",
+    "address": "0x74c5b9b8b4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_rfd",
+    "address": "0x74c5b94c14"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_has_SHA384_HMAC",
+    "address": "0x74c5b91f04"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_keylog_callback",
+    "address": "0x74c5b96208"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_psk_server_callback",
+    "address": "0x74c5b961d8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_ticket_age_skew",
+    "address": "0x74c5b9673c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_set_time",
+    "address": "0x74c5b984d4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_new",
+    "address": "0x74c5b93c74"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_verify",
+    "address": "0x74c5b9ba1c"
+  },
+  {
+    "type": "function",
+    "name": "DTLSv1_handle_timeout",
+    "address": "0x74c5b83c84"
+  },
+  {
+    "type": "function",
+    "name": "SSL_use_certificate_file",
+    "address": "0x74c5b93008"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_use_PrivateKey_ASN1",
+    "address": "0x74c5b96ee4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_verify_depth",
+    "address": "0x74c5b9ba0c"
+  },
+  {
+    "type": "function",
+    "name": "TLS_with_buffers_method",
+    "address": "0x74c5ba8698"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_curve_id",
+    "address": "0x74c5b95490"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_signing_algorithm_prefs",
+    "address": "0x74c5b9706c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_max_proto_version",
+    "address": "0x74c5b9a958"
+  },
+  {
+    "type": "function",
+    "name": "SSL_COMP_add_compression_method",
+    "address": "0x74c5b922cc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_flush_sessions",
+    "address": "0x74c5b994fc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_cache_hit",
+    "address": "0x74c5b95e40"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_load_verify_locations",
+    "address": "0x74c5b9ba38"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_client_CA_list",
+    "address": "0x74c5b9ce10"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_next_protos_advertised_cb",
+    "address": "0x74c5b958cc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_verify_depth",
+    "address": "0x74c5b9ba28"
+  },
+  {
+    "type": "function",
+    "name": "SSL_dup_CA_list",
+    "address": "0x74c5b9cc4c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_in_init",
+    "address": "0x74c5b941c4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_get_master_key",
+    "address": "0x74c5b98490"
+  },
+  {
+    "type": "function",
+    "name": "SSL_state_string",
+    "address": "0x74c5b999f4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_use_certificate",
+    "address": "0x74c5b9c428"
+  },
+  {
+    "type": "function",
+    "name": "SSL_is_server",
+    "address": "0x74c5b96500"
+  },
+  {
+    "type": "function",
+    "name": "DTLS_method",
+    "address": "0x74c5b8487c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_COMP_get_name",
+    "address": "0x74c5b922c4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_add_file_cert_subjects_to_stack",
+    "address": "0x74c5b92ec8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_need_tmp_RSA",
+    "address": "0x74c5b950f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_srtp_profiles",
+    "address": "0x74c5b845f0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_from_bytes",
+    "address": "0x74c5b8e7fc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_client_cert_cb",
+    "address": "0x74c5b9d188"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_alpn_protos",
+    "address": "0x74c5b95934"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_options",
+    "address": "0x74c5b949dc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_accept_good",
+    "address": "0x74c5b950f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_extms_support",
+    "address": "0x74c5b95080"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_psk_server_callback",
+    "address": "0x74c5b961d0"
+  },
+  {
+    "type": "function",
+    "name": "DTLS_client_method",
+    "address": "0x74c5b8487c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_sess_get_cache_size",
+    "address": "0x74c5b95308"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_psk_client_callback",
+    "address": "0x74c5b961c8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_current_cipher",
+    "address": "0x74c5b95e24"
+  },
+  {
+    "type": "function",
+    "name": "SSL_in_false_start",
+    "address": "0x74c5b9642c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_i_promise_to_verify_certs_after_the_handshake",
+    "address": "0x74c5b95624"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_get_id",
+    "address": "0x74c5b98460"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_get_timeout",
+    "address": "0x74c5b98474"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_ocsp_response",
+    "address": "0x74c5b90424"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_add0_chain_cert",
+    "address": "0x74c5b9c6f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_tls_channel_id_enabled",
+    "address": "0x74c5b95a40"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_add_server_custom_ext",
+    "address": "0x74c5b825a8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_tmp_dh",
+    "address": "0x74c5b922cc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_channel_id_cb",
+    "address": "0x74c5b99688"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_client_CA_list",
+    "address": "0x74c5b9cfbc"
+  },
+  {
+    "type": "function",
+    "name": "DTLSv1_get_timeout",
+    "address": "0x74c5b83a0c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_early_callback_ctx_extension_get",
+    "address": "0x74c5b9e718"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_current_time_cb",
+    "address": "0x74c5b96210"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_tmp_rsa_callback",
+    "address": "0x74c5b922d4"
+  },
+  {
+    "type": "function",
+    "name": "SSLv3_client_method",
+    "address": "0x74c5ba868c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get_read_ahead",
+    "address": "0x74c5b950f8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set0_verify_cert_store",
+    "address": "0x74c5b9d270"
+  },
+  {
+    "type": "function",
+    "name": "SSL_free",
+    "address": "0x74c5b93eb4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_enable_tls_channel_id",
+    "address": "0x74c5b95a28"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get0_chain_certs",
+    "address": "0x74c5b9c9f4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_SESSION_to_bytes",
+    "address": "0x74c5b8d33c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_max_send_fragment",
+    "address": "0x74c5b95210"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_msg_callback",
+    "address": "0x74c5b961f0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_add_client_CA",
+    "address": "0x74c5b9d144"
+  },
+  {
+    "type": "function",
+    "name": "SSL_renegotiate",
+    "address": "0x74c5b95140"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_psk_client_callback",
+    "address": "0x74c5b961c0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_get0_chain_certs",
+    "address": "0x74c5b9c8c0"
+  },
+  {
+    "type": "function",
+    "name": "TLSv1_2_client_method",
+    "address": "0x74c5ba8668"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_wbio",
+    "address": "0x74c5b940f4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_get_version",
+    "address": "0x74c5b922b8"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_is_AES128CBC",
+    "address": "0x74c5b91f38"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_options",
+    "address": "0x74c5b94a0c"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_set_msg_callback",
+    "address": "0x74c5b961e0"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_shared_ciphers",
+    "address": "0x74c5b95fd4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CTX_clear_chain_certs",
+    "address": "0x74c5b9c818"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set0_wbio",
+    "address": "0x74c5b94020"
+  },
+  {
+    "type": "function",
+    "name": "SSL_set_srtp_profiles",
+    "address": "0x74c5b847f4"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_get_min_version",
+    "address": "0x74c5b91fac"
+  },
+  {
+    "type": "function",
+    "name": "SSL_early_data_accepted",
+    "address": "0x74c5b947ec"
+  },
+  {
+    "type": "function",
+    "name": "SSL_use_certificate",
+    "address": "0x74c5b9c358"
+  },
+  {
+    "type": "function",
+    "name": "SSL_magic_pending_session_ptr",
+    "address": "0x74c5b98558"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_get_id",
+    "address": "0x74c5b91ecc"
+  },
+  {
+    "type": "function",
+    "name": "SSL_CIPHER_get_kx_name",
+    "address": "0x74c5b92034"
+  },
+  {
+    "type": "function",
+    "name": "SSL_get_ex_data_X509_STORE_CTX_idx",
+    "address": "0x74c5b950f8"
+  }
+]

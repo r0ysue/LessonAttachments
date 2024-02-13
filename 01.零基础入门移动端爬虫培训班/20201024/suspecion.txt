@@ -1,0 +1,9 @@
+com.google.protobuf.WireFormat.makeTag
+
+com.google.protobuf.CodedOutputStream$OutputStreamEncoder.write([B, int, int)
+com.google.protobuf.CodedInputStream.readTag()
+
+com.google.protobuf.WireFormat.getTagFieldNumber(int)
+
+com.google.protobuf.Utf8.encode(java.lang.CharSequence, [B, int, int)
+com.google.protobuf.CodedInputStream.newInstance([B, int, int, boolean)

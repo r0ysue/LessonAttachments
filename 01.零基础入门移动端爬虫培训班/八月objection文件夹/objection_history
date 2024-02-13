@@ -1,0 +1,570 @@
+
+# 2020-08-11 21:40:43.955514
++frida
+
+# 2020-08-11 21:40:46.533070
++env
+
+# 2020-08-11 21:41:18.569554
++android hooking list activities
+
+# 2020-08-11 21:41:27.751711
++android hooking list  services 
+
+# 2020-08-11 21:41:38.519310
++android hooking list receivers 
+
+# 2020-08-11 21:46:10.523870
++exit
+
+# 2020-08-11 21:46:35.792505
++android hooking list classes 
+
+# 2020-08-11 21:48:45.293314
++android hooking list class_methods com.example.demo10.MainActivity 
+
+# 2020-08-11 21:49:27.437467
++exit
+
+# 2020-08-11 21:51:58.477280
++plugin wallbreaker classdump com.example.demo10.MainActivity
+
+# 2020-08-11 21:52:18.440717
++exit
+
+# 2020-08-11 21:52:26.504467
++plugin wallbreaker classdump com.example.demo10.MainActivity
+
+# 2020-08-11 21:53:00.833675
++plugin wallbreaker objectsearch  com.example.demo10.MainActivity
+
+# 2020-08-11 21:53:03.232683
++exit
+
+# 2020-08-11 21:53:10.846887
++plugin wallbreaker objectsearch  com.example.demo10.MainActivity
+
+# 2020-08-11 21:55:43.236399
++android hooking list class_methods android.widget.TextView
+
+# 2020-08-11 21:56:52.865179
++android hooking watch class_method android.widget.TextView.setText --dump-args --dump-backtrace --dump-return 
+
+# 2020-08-11 21:58:05.807422
++uments android.widget.TextView.setText("<instance: java.lang.CharSequence, 
+
+# 2020-08-11 21:58:31.439910
++exit
+
+# 2020-08-11 21:59:21.366560
++android hooking list class_methods java.lang.StringBuilder
+
+# 2020-08-11 21:59:54.127248
++android hooking watch class_method java.lang.StringBuilder.toString --dump-args --dump-backtrace --dump-return 
+
+# 2020-08-11 22:00:42.720106
++exit
+
+# 2020-08-11 22:00:53.095786
++android hooking watch class_method java.lang.StringBuilder.toString --dump-args --dump-backtrace --dump-return 
+
+# 2020-08-11 22:01:07.078292
++exit
+
+# 2020-08-11 22:01:34.273759
++android hooking watch class_method java.lang.StringBuilder.toString --dump-args --dump-backtrace --dump-return 
+
+# 2020-08-11 22:07:28.437686
++exit
+
+# 2020-08-13 20:55:34.033867
++frida
+
+# 2020-08-13 20:55:35.941862
++env
+
+# 2020-08-13 20:55:42.754765
++exit
+
+# 2020-08-13 20:59:29.845003
++frida
+
+# 2020-08-13 20:59:31.591584
++env
+
+# 2020-08-13 20:59:38.389990
++android hooking list classes 
+
+# 2020-08-13 20:59:44.350334
++exit
+
+# 2020-08-13 21:05:12.225131
++frida
+
+# 2020-08-13 21:05:13.662477
++env
+
+# 2020-08-13 21:05:15.257148
++exit
+
+# 2020-08-13 21:06:56.356722
++android hooking list receivers 
+
+# 2020-08-13 21:07:10.231533
++android hooking list services 
+
+# 2020-08-13 21:07:17.187098
++exit
+
+# 2020-08-13 21:08:02.652007
++android hooking list services 
+
+# 2020-08-13 21:08:52.326370
++plugin wallbreaker classdump com.shimeng.qq2693533893.MyServiceOne --fullname
+
+# 2020-08-13 21:08:53.914177
++ 
+
+# 2020-08-13 21:09:01.867518
++android hooking list receivers 
+
+# 2020-08-13 21:09:12.418838
++plugin wallbreaker classdump com.shimeng.qq2693533893.MyBroadcast --fullname
+
+# 2020-08-13 21:10:22.754407
++plugin wallbreaker classdump com.shimeng.qq2693533893.MyServiceOne --fullname
+
+# 2020-08-13 21:13:12.244278
++android hooking watch class com.shimeng.qq2693533893.MyServiceOne
+
+# 2020-08-13 21:14:44.387495
++exit
+
+# 2020-08-13 21:15:00.883233
++android hooking watch class com.shimeng.qq2693533893.MyServiceOne --dump-backtrace 
+
+# 2020-08-13 21:15:08.404183
++exit
+
+# 2020-08-13 21:15:36.988344
++android hooking watch class com.shimeng.qq2693533893.MyServiceOne.access$L1000018 --dump-backtrace 
+
+# 2020-08-13 21:15:47.341357
++android hooking watch class_method  com.shimeng.qq2693533893.MyServiceOne.access$L1000018 --dump-backtrace 
+
+# 2020-08-13 21:20:38.572934
++exit
+
+# 2020-08-13 21:21:09.677098
++android hooking watch class com.shimeng.qq2693533893.MyServiceOne 
+
+# 2020-08-13 21:21:33.672962
++exit
+
+# 2020-08-13 21:28:28.723371
++android hooking watch class_method com.shimeng.qq2693533893.MyServiceOne.颜如玉 --dump-args --dump-backtrace --dump-return 
+
+# 2020-08-13 21:36:54.716983
++exit
+
+# 2020-08-15 20:59:35.952850
++android hooking list classes 
+
+# 2020-08-15 21:00:23.446446
++frida
+
+# 2020-08-15 21:00:53.057638
++env
+
+# 2020-08-15 21:01:43.573934
++help env
+
+# 2020-08-15 21:02:00.614132
++help frida
+
+# 2020-08-15 21:02:18.016748
++help android heap execute 
+
+# 2020-08-15 21:02:31.935773
++help android hooking watch 
+
+# 2020-08-15 21:03:35.303941
++ memory list modules 
+
+# 2020-08-15 21:06:54.559620
++memory list exports ibcipher-lib.so
+
+# 2020-08-15 21:07:10.760648
++memory list exports libcipher-lib.so
+
+# 2020-08-15 21:07:48.184177
++memory list exports libcipher-lib.so --json /root/Desktop/20200815/fulao.libcipher.json
+
+# 2020-08-15 21:12:30.771257
++android heap search instances  	android.graphics.Bitmap 
+
+# 2020-08-15 21:14:13.177031
++android heap execute 264779735  	getHeight --return-string 
+
+# 2020-08-15 21:14:35.543453
++android heap execute 3362860  	getHeight --return-string 
+
+# 2020-08-15 21:14:47.119560
++android heap execute 136122737  	getHeight --return-string 
+
+# 2020-08-15 21:15:11.496863
++android heap execute 136122737  	getWidth  --return-string 
+
+# 2020-08-15 21:15:22.723854
++android heap execute 3362860  	getWidth --return-string 
+
+# 2020-08-15 21:15:39.692350
++android heap evaluate  3362860 
+
+# 2020-08-15 21:17:14.515094
++android heap evaluate 3362860
+
+# 2020-08-15 21:18:28.246153
++android hooking list activities 
+
+# 2020-08-15 21:19:05.078131
++android intent launch_activity com.ilulutv.fulao2.me.news.NewsActivity 
+
+# 2020-08-15 21:19:52.549340
++android intent launch_activity  com.ilulutv.fulao2.actor.ActorProfileActivity
+
+# 2020-08-15 21:20:05.450410
++exit
+
+# 2020-08-15 21:20:33.409612
++android intent launch_activity  com.ilulutv.fulao2.actor.ActorProfileActivity
+
+# 2020-08-15 21:21:04.318364
++exit
+
+# 2020-08-15 21:21:33.007469
++android intent launch_activity com.ilulutv.fulao2.explore.RankingActivity
+
+# 2020-08-15 21:21:51.889179
++android hooking list receivers 
+
+# 2020-08-15 21:22:06.214627
++android hooking list services 
+
+# 2020-08-15 21:24:52.719829
++android hooking watch class  	android.graphics.Bitmap
+
+# 2020-08-15 21:25:00.279261
++jobs list
+
+# 2020-08-15 21:26:50.431648
++jobs kill oj8gj59ucdd 
+
+# 2020-08-15 21:27:08.044048
++android hooking watch class_method android.graphics.Bitmap.nativeRowBytes --dump-args --dump-backtrace --dump-return 
+
+# 2020-08-15 21:31:03.299332
++android hooking watch class  	android.graphics.BitmapFactory  
+
+# 2020-08-15 21:31:19.108625
++jobs list
+
+# 2020-08-15 21:31:33.353286
++jobs kill u2s9lrrmhw 
+
+# 2020-08-15 21:31:51.342895
++android hooking watch class_method android.graphics.BitmapFactory.decodeByteArray --dump-args --dump-backtrace --dump-return 
+
+# 2020-08-15 21:32:23.177391
++jobs list 
+
+# 2020-08-15 21:32:32.183468
++jobs kill w1uysmtbdk
+
+# 2020-08-15 21:32:49.799644
++jobs kill 9x9f3ozr4jay
+
+# 2020-08-15 21:33:01.126472
++android hooking watch class_method android.graphics.BitmapFactory.decodeByteArray  --dump-backtrace 
+
+# 2020-08-15 21:38:24.225696
++frida
+
+# 2020-08-15 21:39:40.235500
++exit
+
+# 2020-08-15 21:43:15.800161
++jobs list
+
+# 2020-08-15 21:47:47.532961
++exit
+
+# 2020-08-15 21:58:25.358087
++plugin load
+
+# 2020-08-15 21:58:48.022911
++plugin load 
+
+# 2020-08-15 21:58:49.415768
++exit
+
+# 2020-08-15 22:00:21.477082
++plugin load /root/.objection/plugins/dexdump/frida_dexdump 
+
+# 2020-08-15 22:00:29.481792
++plugin dexdump dump 
+
+# 2020-08-15 22:01:18.044783
++exit
+
+# 2020-08-15 22:03:26.141784
++android hooking list activities 
+
+# 2020-08-15 22:03:46.551583
++android intent launch_activity com.cz.babySister.activity.MainActivity 
+
+# 2020-08-15 22:04:07.093369
++android intent launch_activity com.cz.babySister.activity.MessageActivity
+
+# 2020-08-15 22:04:43.942135
++android intent launch_activity com.cz.babySister.activity.BuyVipActivity
+
+# 2020-08-15 22:05:01.256932
++android hooking list receivers 
+
+# 2020-08-15 22:05:14.644557
++android hooking list services 
+
+# 2020-08-15 22:05:23.746228
++exit
+
+# 2020-08-18 20:54:26.392644
++android hooking list activities 
+
+# 2020-08-18 20:57:34.537106
++android heap search instances  	android.app.AlertDialog
+
+# 2020-08-18 20:58:17.258261
++plugin load /root/.objection/plugins/Wallbreaker
+
+# 2020-08-18 20:58:45.049130
++plugin wallbreaker objectsearch  	android.app.AlertDialog 
+
+# 2020-08-18 20:59:04.969554
++plugin wallbreaker objectdump 0x22d6
+
+# 2020-08-18 21:02:05.538124
++plugin wallbreaker objectdump 0x23fa
+
+# 2020-08-18 21:03:00.021846
++plugin wallbreaker objectsearch  	android.app.AlertDialog 
+
+# 2020-08-18 21:04:33.474532
++exit
+
+# 2020-08-18 21:05:12.819305
++android hooking watch class android.app.AlertDialog 
+
+# 2020-08-18 21:05:41.546658
++exit
+
+# 2020-08-18 21:05:49.547165
++android hooking watch class android.app.AlertDialog 
+
+# 2020-08-18 21:06:13.212457
++exit
+
+# 2020-08-18 21:06:36.319238
++android hooking watch class_method android.app.AlertDialog.onCreate --dump-args --dump-backtrace --dump-return 
+
+# 2020-08-18 21:06:56.154935
++exit
+
+# 2020-08-18 21:07:04.116008
++android hooking watch class_method android.app.AlertDialog.onCreate --dump-args --dump-backtrace --dump-return 
+
+# 2020-08-18 21:12:28.501543
++exit
+
+# 2020-08-20 20:25:28.295176
++frid
+
+# 2020-08-20 20:25:29.793638
++frida
+
+# 2020-08-20 20:25:33.556829
++env
+
+# 2020-08-20 20:26:14.501735
++plugin load /root/.objection/plugins/dexdump/frida_dexdump
+
+# 2020-08-20 20:26:22.735773
++plugin dexdump dump 
+
+# 2020-08-20 20:27:07.487285
++exit
+
+# 2020-08-20 20:47:12.517416
++android hooking list activities 
+
+# 2020-08-20 20:47:35.541046
++android intent launch_activity cn.net.tokyo.ccg.ui.activity.AboutActivity
+
+# 2020-08-20 20:48:17.797954
++android intent launch_activity cn.jpush.android.ui.PopWinActivity
+
+# 2020-08-20 20:48:44.604616
++android intent launch_activity cn.net.tokyo.ccg.ui.activity.MainActivity
+
+# 2020-08-20 20:50:25.681334
++android hooking list classes 
+
+# 2020-08-20 20:51:05.821858
++exit
+
+# 2020-08-20 20:55:57.176107
++android hooking watch class android.app.AlertDialog 
+
+# 2020-08-20 20:56:21.629974
++exit
+
+# 2020-08-20 20:58:01.125438
++android hooking watch class android.widget.PopupWindow
+
+# 2020-08-20 20:58:23.771510
++exit
+
+# 2020-08-20 20:58:55.181560
++android hooking watch class android.app.Dialog
+
+# 2020-08-20 21:00:16.287208
++exit
+
+# 2020-08-20 21:00:41.587103
++android hooking watch class_method android.app.Dialog.setCancelable --dump-args --dump-backtrace --dump-return 
+
+# 2020-08-20 21:05:57.458076
++plugin load /root/.objection/plugins/Wallbreaker
+
+# 2020-08-20 21:09:34.305046
++plugin wallbreaker objectsearch cn.net.tokyo.ccg.ui.fragment.dialog.UpdateDialogFragment
+
+# 2020-08-20 21:11:15.520895
++plugin wallbreaker objectdump --fullname 0x239a
+
+# 2020-08-20 21:13:30.741093
++plugin wallbreaker objectdump --fullname 0x1dc2
+
+# 2020-08-20 21:14:24.188787
++plugin wallbreaker objectdump --fullname 0x255a
+
+# 2020-08-20 21:15:36.879867
++exit
+
+# 2020-08-20 21:16:00.456763
++plugin load /root/.objection/plugins/Wallbreaker
+
+# 2020-08-20 21:16:05.014465
++plugin wallbreaker objectsearch cn.net.tokyo.ccg.ui.fragment.dialog.UpdateDialogFragment
+
+# 2020-08-20 21:16:19.452165
++plugin wallbreaker objectdump --fullname 0x24f2
+
+# 2020-08-20 21:17:57.905838
++plugin wallbreaker objectdump --fullname 0x263a
+
+# 2020-08-20 21:19:17.242426
++plugin wallbreaker objectdump --fullname 0x25fa
+
+# 2020-08-20 21:19:48.747965
++plugin wallbreaker objectdump --fullname 0x263a
+
+# 2020-08-20 21:20:30.749954
++exit
+
+# 2020-08-20 21:20:48.466881
++android hooking watch class cn.net.tokyo.ccg.ui.fragment.dialog.UpdateDialogFragment
+
+# 2020-08-20 21:21:25.706332
++exit
+
+# 2020-08-20 21:22:32.878008
++android hooking watch class_method cn.net.tokyo.ccg.ui.fragment.dialog.UpdateDialogFragment.b --dump-args --dump-backtrace --dump-return 
+
+# 2020-08-20 21:41:28.650708
++exit
+
+# 2020-08-22 20:14:09.086771
++memory list modules 
+
+# 2020-08-22 21:35:41.200589
++plugin load /root/.objection/plugins/dexdump/frida_dexdump
+
+# 2020-08-22 21:35:46.597005
++plugin dexdump dump  
+
+# 2020-08-22 21:36:57.072319
++android hooking search classes okhttp3
+
+# 2020-08-22 21:37:16.527368
++exit
+
+# 2020-08-22 21:42:24.010184
++frid
+
+# 2020-08-22 21:42:25.110217
++frida
+
+# 2020-08-22 21:42:27.217282
++env
+
+# 2020-08-22 21:42:50.729006
++exit
+
+# 2020-08-22 21:44:52.432963
++plugin wallbreaker objectsearch okhttp3.OkHttpClient
+
+# 2020-08-22 21:45:04.661546
++plugin wallbreaker objectdump --fullname 0x38c6
+
+# 2020-08-22 21:48:14.346839
++plugin wallbreaker objectdump --fullname 0x3aa6
+
+# 2020-08-22 21:52:45.779439
++exit
+
+# 2020-08-22 21:54:01.836647
++plugin wallbreaker objectsearch okhttp3.OkHttpClient
+
+# 2020-08-22 21:54:24.932004
++plugin wallbreaker objectsearch okhttp3.O0000ooO
+
+# 2020-08-22 21:54:35.142804
++plugin wallbreaker objectdump --fullname 0x25aa
+
+# 2020-08-22 21:55:53.312023
++plugin wallbreaker objectdump --fullname 0x26a2
+
+# 2020-08-22 21:57:30.604046
++plugin wallbreaker objectdump --fullname 0x25e2
+
+# 2020-08-22 21:58:57.632148
++exit
+
+# 2020-08-22 22:03:49.995013
++plugin wallbreaker objectsearch فمضﺝ/ﻙﺫتك
+
+# 2020-08-22 22:03:58.719912
++plugin wallbreaker objectsearch فمضﺝ.ﻙﺫتك
+
+# 2020-08-22 22:04:22.770316
++plugin wallbreaker objectdump --fullname 0x20da
+
+# 2020-08-22 22:05:48.221341
++plugin wallbreaker objectdump --fullname 0x282a
+
+# 2020-08-22 22:07:28.528873
++plugin wallbreaker objectdump --fullname 0x2906
+
+# 2020-08-22 22:16:50.372112
++exit

@@ -1,0 +1,26 @@
+android hooking watch   class   java.net.InetSocketAddress
+android hooking watch class  java.net.Socket
+android hooking watch class java.net.MulticastSocket
+android hooking watch class java.net.DatagramSocket
+android hooking watch class java.net.SocketImpl
+android hooking watch class java.net.SocketException
+android hooking watch   class   java.net.SocketAddress
+android hooking watch   class   java.net.SocketInputStream
+android hooking watch   class   java.net.SocketOption
+android hooking watch   class   java.net.SocketOptions
+android hooking watch   class   java.net.SocketOutputStream
+android hooking watch   class   java.net.SocketTimeoutException
+android hooking watch   class   java.net.SocksSocketImpl
+android hooking watch   class   java.nio.channels.ServerSocketChannel
+android hooking watch   class   java.nio.channels.SocketChannel
+android hooking watch   class   javax.net.DefaultSocketFactory
+android hooking watch   class   javax.net.SocketFactory
+android hooking watch   class   javax.net.ssl.SSLSocket
+android hooking watch   class   javax.net.ssl.SSLSocketFactory
+android hooking watch   class   javax.net.ssl.SSLSocketFactory$1
+android hooking watch   class   org.apache.http.conn.scheme.LayeredSocketFactory
+android hooking watch   class   org.apache.http.conn.scheme.SocketFactory
+android hooking watch   class   sun.nio.ch.ServerSocketChannelImpl
+android hooking watch   class   sun.nio.ch.SocketChannelImpl
+android hooking watch   class   sun.nio.ch.SocketDispatcher
+

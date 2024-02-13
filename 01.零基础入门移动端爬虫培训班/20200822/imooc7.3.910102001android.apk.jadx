@@ -1,0 +1,67 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "imooc7.3.910102001android.apk"
+  ],
+  "treeExpansions": [
+    [
+      "okhttp3",
+      "Source code",
+      "imooc7.3.910102001android.apk"
+    ],
+    [
+      "Resources",
+      "imooc7.3.910102001android.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "okhttp3.O0000ooO",
+      "subPath": "java",
+      "caret": 1218,
+      "view": {
+        "x": 0,
+        "y": 204
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "okhttp3.Protocol",
+      "subPath": "java",
+      "caret": 123,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "resource",
+      "tabPath": "AndroidManifest.xml",
+      "subPath": "",
+      "caret": 288,
+      "view": {
+        "x": 1488,
+        "y": 0
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "okhttp3.O00oOooo",
+      "subPath": "java",
+      "caret": 290,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "activeTab": 0,
+  "cacheDir": "imooc7.3.910102001android.apk.cache",
+  "enableLiveReload": false,
+  "searchHistory": []
+}

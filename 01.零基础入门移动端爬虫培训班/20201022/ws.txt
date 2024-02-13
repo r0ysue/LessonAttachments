@@ -1,0 +1,5 @@
+android	hooking	watch	class	com.github.gotify.service.WebSocketConnection
+android	hooking	watch	class	com.github.gotify.service.WebSocketConnection$BadRequestRunnable
+android	hooking	watch	class	com.github.gotify.service.WebSocketConnection$Listener
+android	hooking	watch	class	com.github.gotify.service.WebSocketConnection$OnNetworkFailureRunnable
+android	hooking	watch	class	com.github.gotify.service.WebSocketService

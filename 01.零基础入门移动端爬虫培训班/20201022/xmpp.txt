@@ -1,0 +1,8 @@
+android	hooking	watch	class	com.xabber.xmpp.smack.XMPPTCPConnection
+android	hooking	watch	class	com.xabber.xmpp.smack.XMPPTCPConnection$1
+android	hooking	watch	class	com.xabber.xmpp.smack.XMPPTCPConnection$PacketReader
+android	hooking	watch	class	com.xabber.xmpp.smack.XMPPTCPConnection$PacketReader$1
+android	hooking	watch	class	com.xabber.xmpp.smack.XMPPTCPConnection$PacketWriter
+android	hooking	watch	class	com.xabber.xmpp.smack.XMPPTCPConnection$PacketWriter$1
+android	hooking	watch	class	com.xabber.xmpp.smack.XMPPTCPConnectionConfiguration
+android	hooking	watch	class	com.xabber.xmpp.smack.XMPPTCPConnectionConfiguration$Builder

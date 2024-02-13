@@ -1,0 +1,5 @@
+
+//String url = "http://www.cqzk.com.cn/";
+String url = "https://www.baidu.com";
+
+android:usesCleartextTraffic="true"

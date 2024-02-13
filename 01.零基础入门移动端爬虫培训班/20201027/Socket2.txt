@@ -1,0 +1,21 @@
+android hooking watch class_method org.apache.http.conn.scheme.LayeredSocketFactory.$init --dump-args --dump-return
+android hooking watch class_method org.apache.http.conn.scheme.SocketFactory.$init --dump-args --dump-return
+android hooking watch class_method sun.nio.ch.ServerSocketChannelImpl.$init --dump-args --dump-return
+android hooking watch class_method sun.nio.ch.SocketChannelImpl.$init --dump-args --dump-return
+android hooking watch class_method sun.nio.ch.SocketDispatcher.$init --dump-args --dump-return
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
