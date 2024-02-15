@@ -1,0 +1,1792 @@
+methods =>  private android.content.ComponentName android.app.Dialog.getAssociatedActivity(),private void android.app.Dialog.sendDismissMessage(),private void android.app.Dialog.sendShowMessage(),private void android.app.Dialog.updateWindowForCancelable(),void android.app.Dialog.-android_app_Dialog-mthref-0(),public void android.app.Dialog.addContentView(android.view.View,android.view.ViewGroup$LayoutParams),public void android.app.Dialog.cancel(),public void android.app.Dialog.closeOptionsMenu(),public void android.app.Dialog.create(),public void android.app.Dialog.dismiss(),void android.app.Dialog.dismissDialog(),public boolean android.app.Dialog.dispatchGenericMotionEvent(android.view.MotionEvent),public boolean android.app.Dialog.dispatchKeyEvent(android.view.KeyEvent),public boolean android.app.Dialog.dispatchKeyShortcutEvent(android.view.KeyEvent),void android.app.Dialog.dispatchOnCreate(android.os.Bundle),public boolean android.app.Dialog.dispatchPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent),public boolean android.app.Dialog.dispatchTouchEvent(android.view.MotionEvent),public boolean android.app.Dialog.dispatchTrackballEvent(android.view.MotionEvent),public android.view.View android.app.Dialog.findViewById(int),public android.app.ActionBar android.app.Dialog.getActionBar(),public final android.content.Context android.app.Dialog.getContext(),public android.view.View android.app.Dialog.getCurrentFocus(),public android.view.LayoutInflater android.app.Dialog.getLayoutInflater(),public final android.app.Activity android.app.Dialog.getOwnerActivity(),public final android.view.SearchEvent android.app.Dialog.getSearchEvent(),public final int android.app.Dialog.getVolumeControlStream(),public android.view.Window android.app.Dialog.getWindow(),public void android.app.Dialog.hide(),public void android.app.Dialog.invalidateOptionsMenu(),public boolean android.app.Dialog.isShowing(),void android.app.Dialog.lambda$-android_app_Dialog_6818(),public void android.app.Dialog.onActionModeFinished(android.view.ActionMode),public void android.app.Dialog.onActionModeStarted(android.view.ActionMode),public void android.app.Dialog.onAttachedToWindow(),public void android.app.Dialog.onBackPressed(),public void android.app.Dialog.onContentChanged(),public boolean android.app.Dialog.onContextItemSelected(android.view.MenuItem),public void android.app.Dialog.onContextMenuClosed(android.view.Menu),protected void android.app.Dialog.onCreate(android.os.Bundle),public void android.app.Dialog.onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo),public boolean android.app.Dialog.onCreateOptionsMenu(android.view.Menu),public boolean android.app.Dialog.onCreatePanelMenu(int,android.view.Menu),public android.view.View android.app.Dialog.onCreatePanelView(int),public void android.app.Dialog.onDetachedFromWindow(),public boolean android.app.Dialog.onGenericMotionEvent(android.view.MotionEvent),public boolean android.app.Dialog.onKeyDown(int,android.view.KeyEvent),public boolean android.app.Dialog.onKeyLongPress(int,android.view.KeyEvent),public boolean android.app.Dialog.onKeyMultiple(int,int,android.view.KeyEvent),public boolean android.app.Dialog.onKeyShortcut(int,android.view.KeyEvent),public boolean android.app.Dialog.onKeyUp(int,android.view.KeyEvent),public boolean android.app.Dialog.onMenuItemSelected(int,android.view.MenuItem),public boolean android.app.Dialog.onMenuOpened(int,android.view.Menu),public boolean android.app.Dialog.onOptionsItemSelected(android.view.MenuItem),public void android.app.Dialog.onOptionsMenuClosed(android.view.Menu),public void android.app.Dialog.onPanelClosed(int,android.view.Menu),public boolean android.app.Dialog.onPrepareOptionsMenu(android.view.Menu),public boolean android.app.Dialog.onPreparePanel(int,android.view.View,android.view.Menu),public void android.app.Dialog.onRestoreInstanceState(android.os.Bundle),public android.os.Bundle android.app.Dialog.onSaveInstanceState(),public boolean android.app.Dialog.onSearchRequested(),public boolean android.app.Dialog.onSearchRequested(android.view.SearchEvent),protected void android.app.Dialog.onStart(),protected void android.app.Dialog.onStop(),public boolean android.app.Dialog.onTouchEvent(android.view.MotionEvent),public boolean android.app.Dialog.onTrackballEvent(android.view.MotionEvent),public void android.app.Dialog.onWindowAttributesChanged(android.view.WindowManager$LayoutParams),public void android.app.Dialog.onWindowDismissed(boolean,boolean),public void android.app.Dialog.onWindowFocusChanged(boolean),public android.view.ActionMode android.app.Dialog.onWindowStartingActionMode(android.view.ActionMode$Callback),public android.view.ActionMode android.app.Dialog.onWindowStartingActionMode(android.view.ActionMode$Callback,int),public void android.app.Dialog.openContextMenu(android.view.View),public void android.app.Dialog.openOptionsMenu(),public void android.app.Dialog.registerForContextMenu(android.view.View),public final boolean android.app.Dialog.requestWindowFeature(int),public void android.app.Dialog.setCancelMessage(android.os.Message),public void android.app.Dialog.setCancelable(boolean),public void android.app.Dialog.setCanceledOnTouchOutside(boolean),public void android.app.Dialog.setContentView(int),public void android.app.Dialog.setContentView(android.view.View),public void android.app.Dialog.setContentView(android.view.View,android.view.ViewGroup$LayoutParams),public void android.app.Dialog.setDismissMessage(android.os.Message),public final void android.app.Dialog.setFeatureDrawable(int,android.graphics.drawable.Drawable),public final void android.app.Dialog.setFeatureDrawableAlpha(int,int),public final void android.app.Dialog.setFeatureDrawableResource(int,int),public final void android.app.Dialog.setFeatureDrawableUri(int,android.net.Uri),public void android.app.Dialog.setOnCancelListener(android.content.DialogInterface$OnCancelListener),public void android.app.Dialog.setOnDismissListener(android.content.DialogInterface$OnDismissListener),public void android.app.Dialog.setOnKeyListener(android.content.DialogInterface$OnKeyListener),public void android.app.Dialog.setOnShowListener(android.content.DialogInterface$OnShowListener),public final void android.app.Dialog.setOwnerActivity(android.app.Activity),public void android.app.Dialog.setTitle(int),public void android.app.Dialog.setTitle(java.lang.CharSequence),public final void android.app.Dialog.setVolumeControlStream(int),public void android.app.Dialog.show(),public boolean android.app.Dialog.takeCancelAndDismissListeners(java.lang.String,android.content.DialogInterface$OnCancelListener,android.content.DialogInterface$OnDismissListener),public void android.app.Dialog.takeKeyEvents(boolean),public void android.app.Dialog.unregisterForContextMenu(android.view.View)
+targets=> getAssociatedActivity,sendDismissMessage,sendShowMessage,updateWindowForCancelable,-android_app_Dialog-mthref-0,addContentView,cancel,closeOptionsMenu,create,dismiss,dismissDialog,dispatchGenericMotionEvent,dispatchKeyEvent,dispatchKeyShortcutEvent,dispatchOnCreate,dispatchPopulateAccessibilityEvent,dispatchTouchEvent,dispatchTrackballEvent,findViewById,getActionBar,getContext,getCurrentFocus,getLayoutInflater,getOwnerActivity,getSearchEvent,getVolumeControlStream,getWindow,hide,invalidateOptionsMenu,isShowing,lambda$-android_app_Dialog_6818,onActionModeFinished,onActionModeStarted,onAttachedToWindow,onBackPressed,onContentChanged,onContextItemSelected,onContextMenuClosed,onCreate,onCreateContextMenu,onCreateOptionsMenu,onCreatePanelMenu,onCreatePanelView,onDetachedFromWindow,onGenericMotionEvent,onKeyDown,onKeyLongPress,onKeyMultiple,onKeyShortcut,onKeyUp,onMenuItemSelected,onMenuOpened,onOptionsItemSelected,onOptionsMenuClosed,onPanelClosed,onPrepareOptionsMenu,onPreparePanel,onRestoreInstanceState,onSaveInstanceState,onSearchRequested,onStart,onStop,onTouchEvent,onTrackballEvent,onWindowAttributesChanged,onWindowDismissed,onWindowFocusChanged,onWindowStartingActionMode,openContextMenu,openOptionsMenu,registerForContextMenu,requestWindowFeature,setCancelMessage,setCancelable,setCanceledOnTouchOutside,setContentView,setDismissMessage,setFeatureDrawable,setFeatureDrawableAlpha,setFeatureDrawableResource,setFeatureDrawableUri,setOnCancelListener,setOnDismissListener,setOnKeyListener,setOnShowListener,setOwnerActivity,setTitle,setVolumeControlStream,show,takeCancelAndDismissListeners,takeKeyEvents,unregisterForContextMenu,$init
+Tracing android.app.Dialog.getAssociatedActivity [1 overload(s)]
+Tracing android.app.Dialog.sendDismissMessage [1 overload(s)]
+Tracing android.app.Dialog.sendShowMessage [1 overload(s)]
+Tracing android.app.Dialog.updateWindowForCancelable [1 overload(s)]
+Tracing android.app.Dialog.-android_app_Dialog-mthref-0 [1 overload(s)]
+Tracing android.app.Dialog.addContentView [1 overload(s)]
+Tracing android.app.Dialog.cancel [1 overload(s)]
+Tracing android.app.Dialog.closeOptionsMenu [1 overload(s)]
+Tracing android.app.Dialog.create [1 overload(s)]
+Tracing android.app.Dialog.dismiss [1 overload(s)]
+Tracing android.app.Dialog.dismissDialog [1 overload(s)]
+Tracing android.app.Dialog.dispatchGenericMotionEvent [1 overload(s)]
+Tracing android.app.Dialog.dispatchKeyEvent [1 overload(s)]
+Tracing android.app.Dialog.dispatchKeyShortcutEvent [1 overload(s)]
+Tracing android.app.Dialog.dispatchOnCreate [1 overload(s)]
+Tracing android.app.Dialog.dispatchPopulateAccessibilityEvent [1 overload(s)]
+Tracing android.app.Dialog.dispatchTouchEvent [1 overload(s)]
+Tracing android.app.Dialog.dispatchTrackballEvent [1 overload(s)]
+Tracing android.app.Dialog.findViewById [1 overload(s)]
+Tracing android.app.Dialog.getActionBar [1 overload(s)]
+Tracing android.app.Dialog.getContext [1 overload(s)]
+Tracing android.app.Dialog.getCurrentFocus [1 overload(s)]
+Tracing android.app.Dialog.getLayoutInflater [1 overload(s)]
+Tracing android.app.Dialog.getOwnerActivity [1 overload(s)]
+Tracing android.app.Dialog.getSearchEvent [1 overload(s)]
+Tracing android.app.Dialog.getVolumeControlStream [1 overload(s)]
+Tracing android.app.Dialog.getWindow [1 overload(s)]
+Tracing android.app.Dialog.hide [1 overload(s)]
+Tracing android.app.Dialog.invalidateOptionsMenu [1 overload(s)]
+Tracing android.app.Dialog.isShowing [1 overload(s)]
+Tracing android.app.Dialog.lambda$-android_app_Dialog_6818 [1 overload(s)]
+Tracing android.app.Dialog.onActionModeFinished [1 overload(s)]
+Tracing android.app.Dialog.onActionModeStarted [1 overload(s)]
+Tracing android.app.Dialog.onAttachedToWindow [1 overload(s)]
+Tracing android.app.Dialog.onBackPressed [1 overload(s)]
+Tracing android.app.Dialog.onContentChanged [1 overload(s)]
+Tracing android.app.Dialog.onContextItemSelected [1 overload(s)]
+Tracing android.app.Dialog.onContextMenuClosed [1 overload(s)]
+Tracing android.app.Dialog.onCreate [1 overload(s)]
+Tracing android.app.Dialog.onCreateContextMenu [1 overload(s)]
+Tracing android.app.Dialog.onCreateOptionsMenu [1 overload(s)]
+Tracing android.app.Dialog.onCreatePanelMenu [1 overload(s)]
+Tracing android.app.Dialog.onCreatePanelView [1 overload(s)]
+Tracing android.app.Dialog.onDetachedFromWindow [1 overload(s)]
+Tracing android.app.Dialog.onGenericMotionEvent [1 overload(s)]
+Tracing android.app.Dialog.onKeyDown [1 overload(s)]
+Tracing android.app.Dialog.onKeyLongPress [1 overload(s)]
+Tracing android.app.Dialog.onKeyMultiple [1 overload(s)]
+Tracing android.app.Dialog.onKeyShortcut [1 overload(s)]
+Tracing android.app.Dialog.onKeyUp [1 overload(s)]
+Tracing android.app.Dialog.onMenuItemSelected [1 overload(s)]
+Tracing android.app.Dialog.onMenuOpened [1 overload(s)]
+Tracing android.app.Dialog.onOptionsItemSelected [1 overload(s)]
+Tracing android.app.Dialog.onOptionsMenuClosed [1 overload(s)]
+Tracing android.app.Dialog.onPanelClosed [1 overload(s)]
+Tracing android.app.Dialog.onPrepareOptionsMenu [1 overload(s)]
+Tracing android.app.Dialog.onPreparePanel [1 overload(s)]
+Tracing android.app.Dialog.onRestoreInstanceState [1 overload(s)]
+Tracing android.app.Dialog.onSaveInstanceState [1 overload(s)]
+Tracing android.app.Dialog.onSearchRequested [2 overload(s)]
+Tracing android.app.Dialog.onStart [1 overload(s)]
+Tracing android.app.Dialog.onStop [1 overload(s)]
+Tracing android.app.Dialog.onTouchEvent [1 overload(s)]
+Tracing android.app.Dialog.onTrackballEvent [1 overload(s)]
+Tracing android.app.Dialog.onWindowAttributesChanged [1 overload(s)]
+Tracing android.app.Dialog.onWindowDismissed [1 overload(s)]
+Tracing android.app.Dialog.onWindowFocusChanged [1 overload(s)]
+Tracing android.app.Dialog.onWindowStartingActionMode [2 overload(s)]
+Tracing android.app.Dialog.openContextMenu [1 overload(s)]
+Tracing android.app.Dialog.openOptionsMenu [1 overload(s)]
+Tracing android.app.Dialog.registerForContextMenu [1 overload(s)]
+Tracing android.app.Dialog.requestWindowFeature [1 overload(s)]
+Tracing android.app.Dialog.setCancelMessage [1 overload(s)]
+Tracing android.app.Dialog.setCancelable [1 overload(s)]
+Tracing android.app.Dialog.setCanceledOnTouchOutside [1 overload(s)]
+Tracing android.app.Dialog.setContentView [3 overload(s)]
+Tracing android.app.Dialog.setDismissMessage [1 overload(s)]
+Tracing android.app.Dialog.setFeatureDrawable [1 overload(s)]
+Tracing android.app.Dialog.setFeatureDrawableAlpha [1 overload(s)]
+Tracing android.app.Dialog.setFeatureDrawableResource [1 overload(s)]
+Tracing android.app.Dialog.setFeatureDrawableUri [1 overload(s)]
+Tracing android.app.Dialog.setOnCancelListener [1 overload(s)]
+Tracing android.app.Dialog.setOnDismissListener [1 overload(s)]
+Tracing android.app.Dialog.setOnKeyListener [1 overload(s)]
+Tracing android.app.Dialog.setOnShowListener [1 overload(s)]
+Tracing android.app.Dialog.setOwnerActivity [1 overload(s)]
+Tracing android.app.Dialog.setTitle [2 overload(s)]
+Tracing android.app.Dialog.setVolumeControlStream [1 overload(s)]
+Tracing android.app.Dialog.show [1 overload(s)]
+Tracing android.app.Dialog.takeCancelAndDismissListeners [1 overload(s)]
+Tracing android.app.Dialog.takeKeyEvents [1 overload(s)]
+Tracing android.app.Dialog.unregisterForContextMenu [1 overload(s)]
+Tracing android.app.Dialog.$init [5 overload(s)]
+
+*** entered android.app.Dialog.$init
+
+arg[0]: com.fanwe.live.activity.room.LivePushViewerActivity@f91b2c6
+arg[1]: 2131427764
+
+*** entered android.app.Dialog.$init
+
+arg[0]: com.fanwe.live.activity.room.LivePushViewerActivity@f91b2c6
+arg[1]: 2131427764
+arg[2]: true
+
+*** entered android.app.Dialog.onWindowAttributesChanged
+
+arg[0]: WM.LayoutParams{(0,0)(fillxfill) gr=#11 ty=2 fl=#0 colorMode=0}
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.onWindowAttributesChanged(Native Method)
+	at android.view.Window.dispatchWindowAttributesChanged(Window.java:1137)
+	at com.android.internal.policy.PhoneWindow.dispatchWindowAttributesChanged(PhoneWindow.java:2971)
+	at android.view.Window.setGravity(Window.java:995)
+	at android.app.Dialog.<init>(Dialog.java:195)
+	at android.app.Dialog.<init>(Native Method)
+	at android.app.Dialog.<init>(Dialog.java:168)
+	at android.app.Dialog.<init>(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.<init>(SDDialogBase.java:52)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.<init>(SDDialogBase.java:47)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:45)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.onWindowAttributesChanged
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.<init>(Native Method)
+	at android.app.Dialog.<init>(Dialog.java:168)
+	at android.app.Dialog.<init>(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.<init>(SDDialogBase.java:52)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.<init>(SDDialogBase.java:47)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:45)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.$init
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.<init>(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.<init>(SDDialogBase.java:52)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.<init>(SDDialogBase.java:47)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:45)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.$init
+
+*** entered android.app.Dialog.setOwnerActivity
+
+arg[0]: com.fanwe.live.activity.room.LivePushViewerActivity@f91b2c6
+
+*** entered android.app.Dialog.getWindow
+
+retval: com.android.internal.policy.PhoneWindow@1f8a0d5
+java.lang.Throwable
+	at android.app.Dialog.getWindow(Native Method)
+	at android.app.Dialog.setOwnerActivity(Dialog.java:248)
+	at android.app.Dialog.setOwnerActivity(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.<init>(SDDialogBase.java:54)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.<init>(SDDialogBase.java:47)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:45)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.getWindow
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.setOwnerActivity(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.<init>(SDDialogBase.java:54)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.<init>(SDDialogBase.java:47)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:45)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.setOwnerActivity
+
+*** entered android.app.Dialog.setOnDismissListener
+
+arg[0]: com.fanwe.pay.dialog.LiveJoinPayDialog@9eb4a78
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.setOnDismissListener(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.<init>(SDDialogBase.java:55)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.<init>(SDDialogBase.java:47)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:45)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.setOnDismissListener
+
+*** entered android.app.Dialog.setCanceledOnTouchOutside
+
+arg[0]: false
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.setCanceledOnTouchOutside(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.<init>(SDDialogBase.java:56)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.<init>(SDDialogBase.java:47)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:45)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.setCanceledOnTouchOutside
+
+*** entered android.app.Dialog.getContext
+
+retval: android.view.ContextThemeWrapper@1a7eeb7
+java.lang.Throwable
+	at android.app.Dialog.getContext(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setContentView(SDDialogBase.java:70)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:51)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.getContext
+
+*** entered android.app.Dialog.getContext
+
+retval: android.view.ContextThemeWrapper@1a7eeb7
+java.lang.Throwable
+	at android.app.Dialog.getContext(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setContentView(SDDialogBase.java:71)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:51)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.getContext
+
+*** entered android.app.Dialog.setContentView
+
+arg[0]: android.widget.LinearLayout{ce754c1 V.E...... ......I. 0,0-0,0}
+arg[1]: android.widget.FrameLayout$LayoutParams@8981466
+
+*** entered android.app.Dialog.onWindowAttributesChanged
+
+arg[0]: WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 ty=2 fl=#0 colorMode=0}
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.onWindowAttributesChanged(Native Method)
+	at android.view.Window.dispatchWindowAttributesChanged(Window.java:1137)
+	at com.android.internal.policy.PhoneWindow.dispatchWindowAttributesChanged(PhoneWindow.java:2971)
+	at android.view.Window.setLayout(Window.java:978)
+	at com.android.internal.policy.PhoneWindow.generateLayout(PhoneWindow.java:2328)
+	at com.android.internal.policy.PhoneWindow.installDecor(PhoneWindow.java:2659)
+	at com.android.internal.policy.PhoneWindow.setContentView(PhoneWindow.java:440)
+	at android.app.Dialog.setContentView(Dialog.java:551)
+	at android.app.Dialog.setContentView(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setDialogView(SDDialogBase.java:247)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setContentView(SDDialogBase.java:74)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:51)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.onWindowAttributesChanged
+
+*** entered android.app.Dialog.onWindowAttributesChanged
+
+arg[0]: WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 ty=2 fl=#0 colorMode=0}
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.onWindowAttributesChanged(Native Method)
+	at android.view.Window.dispatchWindowAttributesChanged(Window.java:1137)
+	at com.android.internal.policy.PhoneWindow.dispatchWindowAttributesChanged(PhoneWindow.java:2971)
+	at android.view.Window.setFlags(Window.java:1114)
+	at com.android.internal.policy.PhoneWindow.generateLayout(PhoneWindow.java:2329)
+	at com.android.internal.policy.PhoneWindow.installDecor(PhoneWindow.java:2659)
+	at com.android.internal.policy.PhoneWindow.setContentView(PhoneWindow.java:440)
+	at android.app.Dialog.setContentView(Dialog.java:551)
+	at android.app.Dialog.setContentView(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setDialogView(SDDialogBase.java:247)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setContentView(SDDialogBase.java:74)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:51)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.onWindowAttributesChanged
+
+*** entered android.app.Dialog.onWindowAttributesChanged
+
+arg[0]: WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 ty=2 fl=#800000 colorMode=0}
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.onWindowAttributesChanged(Native Method)
+	at android.view.Window.dispatchWindowAttributesChanged(Window.java:1137)
+	at com.android.internal.policy.PhoneWindow.dispatchWindowAttributesChanged(PhoneWindow.java:2971)
+	at android.view.Window.setFlags(Window.java:1114)
+	at com.android.internal.policy.PhoneWindow.generateLayout(PhoneWindow.java:2380)
+	at com.android.internal.policy.PhoneWindow.installDecor(PhoneWindow.java:2659)
+	at com.android.internal.policy.PhoneWindow.setContentView(PhoneWindow.java:440)
+	at android.app.Dialog.setContentView(Dialog.java:551)
+	at android.app.Dialog.setContentView(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setDialogView(SDDialogBase.java:247)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setContentView(SDDialogBase.java:74)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:51)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.onWindowAttributesChanged
+
+*** entered android.app.Dialog.onWindowAttributesChanged
+
+arg[0]: WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 ty=2 fl=#800000 needsMenuKey=2 colorMode=0}
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.onWindowAttributesChanged(Native Method)
+	at android.view.Window.dispatchWindowAttributesChanged(Window.java:1137)
+	at com.android.internal.policy.PhoneWindow.dispatchWindowAttributesChanged(PhoneWindow.java:2971)
+	at android.view.Window.setNeedsMenuKey(Window.java:1129)
+	at com.android.internal.policy.PhoneWindow.generateLayout(PhoneWindow.java:2428)
+	at com.android.internal.policy.PhoneWindow.installDecor(PhoneWindow.java:2659)
+	at com.android.internal.policy.PhoneWindow.setContentView(PhoneWindow.java:440)
+	at android.app.Dialog.setContentView(Dialog.java:551)
+	at android.app.Dialog.setContentView(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setDialogView(SDDialogBase.java:247)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setContentView(SDDialogBase.java:74)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:51)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.onWindowAttributesChanged
+
+*** entered android.app.Dialog.onWindowAttributesChanged
+
+arg[0]: WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#20 ty=2 fl=#800002 fmt=-2 wanim=0x10302eb needsMenuKey=2 colorMode=0}
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.onWindowAttributesChanged(Native Method)
+	at android.view.Window.dispatchWindowAttributesChanged(Window.java:1137)
+	at com.android.internal.policy.PhoneWindow.dispatchWindowAttributesChanged(PhoneWindow.java:2971)
+	at android.view.Window.setDefaultWindowFormat(Window.java:1740)
+	at com.android.internal.policy.PhoneWindow.setDefaultWindowFormat(PhoneWindow.java:3765)
+	at com.android.internal.policy.DecorView.drawableChanged(DecorView.java:1554)
+	at com.android.internal.policy.DecorView.finishChanging(DecorView.java:942)
+	at com.android.internal.policy.PhoneWindow.generateLayout(PhoneWindow.java:2636)
+	at com.android.internal.policy.PhoneWindow.installDecor(PhoneWindow.java:2659)
+	at com.android.internal.policy.PhoneWindow.setContentView(PhoneWindow.java:440)
+	at android.app.Dialog.setContentView(Dialog.java:551)
+	at android.app.Dialog.setContentView(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setDialogView(SDDialogBase.java:247)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setContentView(SDDialogBase.java:74)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:51)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.onWindowAttributesChanged
+
+*** entered android.app.Dialog.onContentChanged
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.onContentChanged(Native Method)
+	at com.android.internal.policy.PhoneWindow.setContentView(PhoneWindow.java:455)
+	at android.app.Dialog.setContentView(Dialog.java:551)
+	at android.app.Dialog.setContentView(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setDialogView(SDDialogBase.java:247)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setContentView(SDDialogBase.java:74)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:51)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.onContentChanged
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.setContentView(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setDialogView(SDDialogBase.java:247)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setContentView(SDDialogBase.java:74)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:51)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.setContentView
+
+*** entered android.app.Dialog.getContext
+
+retval: android.view.ContextThemeWrapper@1a7eeb7
+java.lang.Throwable
+	at android.app.Dialog.getContext(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.getDefaultPadding(SDDialogBase.java:128)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setDialogView(SDDialogBase.java:249)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setContentView(SDDialogBase.java:74)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:51)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.getContext
+
+*** entered android.app.Dialog.getWindow
+
+retval: com.android.internal.policy.PhoneWindow@1f8a0d5
+java.lang.Throwable
+	at android.app.Dialog.getWindow(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.paddings(SDDialogBase.java:168)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setDialogView(SDDialogBase.java:249)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setContentView(SDDialogBase.java:74)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:51)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.getWindow
+
+*** entered android.app.Dialog.getWindow
+
+retval: com.android.internal.policy.PhoneWindow@1f8a0d5
+java.lang.Throwable
+	at android.app.Dialog.getWindow(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.synchronizeWidth(SDDialogBase.java:269)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setDialogView(SDDialogBase.java:250)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setContentView(SDDialogBase.java:74)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:51)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.getWindow
+
+*** entered android.app.Dialog.getWindow
+
+retval: com.android.internal.policy.PhoneWindow@1f8a0d5
+java.lang.Throwable
+	at android.app.Dialog.getWindow(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.synchronizeWidth(SDDialogBase.java:273)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setDialogView(SDDialogBase.java:250)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setContentView(SDDialogBase.java:74)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:51)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.getWindow
+
+*** entered android.app.Dialog.onWindowAttributesChanged
+
+arg[0]: WM.LayoutParams{(0,0)(fillxwrap) gr=#11 sim=#20 ty=2 fl=#800002 fmt=-2 wanim=0x10302eb needsMenuKey=2 colorMode=0}
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.onWindowAttributesChanged(Native Method)
+	at android.view.Window.dispatchWindowAttributesChanged(Window.java:1137)
+	at com.android.internal.policy.PhoneWindow.dispatchWindowAttributesChanged(PhoneWindow.java:2971)
+	at android.view.Window.setAttributes(Window.java:1217)
+	at com.android.internal.policy.PhoneWindow.setAttributes(PhoneWindow.java:3848)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.synchronizeWidth(SDDialogBase.java:273)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setDialogView(SDDialogBase.java:250)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.setContentView(SDDialogBase.java:74)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:51)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.onWindowAttributesChanged
+
+*** entered android.app.Dialog.findViewById
+
+arg[0]: 2131755354
+
+retval: android.support.v7.widget.AppCompatTextView{96ff684 V.ED..... ......ID 0,0-0,0 #7f10015a app:id/tv_title}
+java.lang.Throwable
+	at android.app.Dialog.findViewById(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:52)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.findViewById
+
+*** entered android.app.Dialog.findViewById
+
+arg[0]: 2131755232
+
+retval: android.widget.FrameLayout{49b9aa2 V.E...... ......I. 0,0-0,0 #7f1000e0 app:id/fl_content}
+java.lang.Throwable
+	at android.app.Dialog.findViewById(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:54)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.findViewById
+
+*** entered android.app.Dialog.findViewById
+
+arg[0]: 2131755680
+
+retval: android.support.v7.widget.AppCompatTextView{137f6f0 V.ED..... ......ID 0,0-0,0 #7f1002a0 app:id/tv_content}
+java.lang.Throwable
+	at android.app.Dialog.findViewById(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:55)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.findViewById
+
+*** entered android.app.Dialog.findViewById
+
+arg[0]: 2131756111
+
+retval: android.support.v7.widget.AppCompatTextView{23cbeee V.ED..... ......I. 0,0-0,0 #7f10044f app:id/tv_confirm}
+java.lang.Throwable
+	at android.app.Dialog.findViewById(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:57)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.findViewById
+
+*** entered android.app.Dialog.findViewById
+
+arg[0]: 2131756110
+
+retval: android.support.v7.widget.AppCompatTextView{83d921c V.ED..... ......I. 0,0-0,0 #7f10044e app:id/tv_cancel}
+java.lang.Throwable
+	at android.app.Dialog.findViewById(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.init(SDDialogConfirm.java:58)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.<init>(SDDialogConfirm.java:46)
+	at com.fanwe.live.dialog.common.AppDialogConfirm.<init>(AppDialogConfirm.java:14)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:15)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.findViewById
+
+*** entered android.app.Dialog.setCancelable
+
+arg[0]: false
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.setCancelable(Native Method)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:16)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.setCancelable
+
+*** entered android.app.Dialog.setCanceledOnTouchOutside
+
+arg[0]: false
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.setCanceledOnTouchOutside(Native Method)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:17)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.setCanceledOnTouchOutside
+
+*** entered android.app.Dialog.getContext
+
+retval: android.view.ContextThemeWrapper@1a7eeb7
+java.lang.Throwable
+	at android.app.Dialog.getContext(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.changeBottomButtonIfNeed(SDDialogConfirm.java:197)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.setTextCancel(SDDialogConfirm.java:140)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:20)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.getContext
+
+*** entered android.app.Dialog.getContext
+
+retval: android.view.ContextThemeWrapper@1a7eeb7
+java.lang.Throwable
+	at android.app.Dialog.getContext(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.changeBottomButtonIfNeed(SDDialogConfirm.java:198)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.setTextCancel(SDDialogConfirm.java:140)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:20)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.getContext
+
+*** entered android.app.Dialog.getContext
+
+retval: android.view.ContextThemeWrapper@1a7eeb7
+java.lang.Throwable
+	at android.app.Dialog.getContext(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.changeBottomButtonIfNeed(SDDialogConfirm.java:197)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.setTextConfirm(SDDialogConfirm.java:125)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:21)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.getContext
+
+*** entered android.app.Dialog.getContext
+
+retval: android.view.ContextThemeWrapper@1a7eeb7
+java.lang.Throwable
+	at android.app.Dialog.getContext(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.changeBottomButtonIfNeed(SDDialogConfirm.java:198)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.setTextConfirm(SDDialogConfirm.java:125)
+	at com.fanwe.pay.dialog.LiveJoinPayDialog.<init>(LiveJoinPayDialog.java:21)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:597)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.getContext
+
+*** entered android.app.Dialog.getOwnerActivity
+
+retval: com.fanwe.live.activity.room.LivePushViewerActivity@f91b2c6
+java.lang.Throwable
+	at android.app.Dialog.getOwnerActivity(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.show(SDDialogBase.java:335)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:618)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.getOwnerActivity
+
+*** entered android.app.Dialog.getOwnerActivity
+
+retval: com.fanwe.live.activity.room.LivePushViewerActivity@f91b2c6
+java.lang.Throwable
+	at android.app.Dialog.getOwnerActivity(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.show(SDDialogBase.java:335)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:618)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.getOwnerActivity
+
+*** entered android.app.Dialog.show
+
+*** entered android.app.Dialog.dispatchOnCreate
+
+arg[0]: null
+
+*** entered android.app.Dialog.onCreate
+
+arg[0]: null
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.onCreate(Native Method)
+	at android.app.Dialog.dispatchOnCreate(Dialog.java:403)
+	at android.app.Dialog.dispatchOnCreate(Native Method)
+	at android.app.Dialog.show(Dialog.java:302)
+	at android.app.Dialog.show(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.show(SDDialogBase.java:337)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:618)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.onCreate
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.dispatchOnCreate(Native Method)
+	at android.app.Dialog.show(Dialog.java:302)
+	at android.app.Dialog.show(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.show(SDDialogBase.java:337)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:618)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.dispatchOnCreate
+
+*** entered android.app.Dialog.onStart
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.onStart(Native Method)
+	at android.app.Dialog.show(Dialog.java:310)
+	at android.app.Dialog.show(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.show(SDDialogBase.java:337)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:618)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.onStart
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.show(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.show(SDDialogBase.java:337)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.showScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:618)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onScenePayViewerShowWhetherJoin(LiveLayoutViewerExtendActivity.java:516)
+	at com.fanwe.pay.LiveScenePayViewerBusiness.dealPayModelRoomInfoSuccess(LiveScenePayViewerBusiness.java:156)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsRequestRoomInfoSuccess(LiveLayoutViewerExtendActivity.java:111)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsRequestRoomInfoSuccess(LivePushViewerActivity.java:405)
+	at com.fanwe.live.business.LiveBusiness.onRequestRoomInfoSuccess(LiveBusiness.java:306)
+	at com.fanwe.live.business.LiveViewerBusiness.onRequestRoomInfoSuccess(LiveViewerBusiness.java:79)
+	at com.fanwe.live.business.LiveBusiness$2.onSuccess(LiveBusiness.java:257)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.onSuccessInternal(SDRequestCallback.java:127)
+	at com.fanwe.library.adapter.http.callback.SDRequestCallback.notifySuccess(SDRequestCallback.java:175)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:105)
+	at com.fanwe.hybrid.http.AppHttpUtil$1.onSuccess(AppHttpUtil.java:74)
+	at org.xutils.http.HttpTask.onSuccess(HttpTask.java:447)
+	at org.xutils.common.task.TaskProxy$InternalHandler.handleMessage(TaskProxy.java:198)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.show
+
+*** entered android.app.Dialog.onAttachedToWindow
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.onAttachedToWindow(Native Method)
+	at com.android.internal.policy.DecorView.onAttachedToWindow(DecorView.java:1590)
+	at android.view.View.dispatchAttachedToWindow(View.java:17445)
+	at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:3326)
+	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1668)
+	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1392)
+	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6752)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:911)
+	at android.view.Choreographer.doCallbacks(Choreographer.java:723)
+	at android.view.Choreographer.doFrame(Choreographer.java:658)
+	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:897)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.onAttachedToWindow
+
+*** entered android.app.Dialog.onWindowFocusChanged
+
+arg[0]: true
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.onWindowFocusChanged(Native Method)
+	at com.android.internal.policy.DecorView.onWindowFocusChanged(DecorView.java:1571)
+	at android.view.View.dispatchWindowFocusChanged(View.java:12029)
+	at android.view.ViewGroup.dispatchWindowFocusChanged(ViewGroup.java:1394)
+	at android.view.ViewRootImpl$ViewRootHandler.handleMessage(ViewRootImpl.java:3873)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.onWindowFocusChanged
+
+*** entered android.app.Dialog.dispatchTouchEvent
+
+arg[0]: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=365.0, y[0]=371.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=35177561, downTime=35177561, deviceId=-1, source=0x1002 }
+
+retval: true
+java.lang.Throwable
+	at android.app.Dialog.dispatchTouchEvent(Native Method)
+	at com.android.internal.policy.DecorView.dispatchTouchEvent(DecorView.java:410)
+	at android.view.View.dispatchPointerEvent(View.java:12015)
+	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:4795)
+	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:4609)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:4147)
+	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:4200)
+	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:4166)
+	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:4293)
+	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:4174)
+	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:4350)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:4147)
+	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:4200)
+	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:4166)
+	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:4174)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:4147)
+	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:6661)
+	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:6635)
+	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:6596)
+	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:6764)
+	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:186)
+	at android.os.MessageQueue.nativePollOnce(Native Method)
+	at android.os.MessageQueue.next(MessageQueue.java:325)
+	at android.os.Looper.loop(Looper.java:142)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.dispatchTouchEvent
+
+*** entered android.app.Dialog.dispatchTouchEvent
+
+arg[0]: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=365.0, y[0]=371.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=BUTTON_PRIMARY, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=35177649, downTime=35177561, deviceId=-1, source=0x1002 }
+
+retval: true
+java.lang.Throwable
+	at android.app.Dialog.dispatchTouchEvent(Native Method)
+	at com.android.internal.policy.DecorView.dispatchTouchEvent(DecorView.java:410)
+	at android.view.View.dispatchPointerEvent(View.java:12015)
+	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:4795)
+	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:4609)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:4147)
+	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:4200)
+	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:4166)
+	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:4293)
+	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:4174)
+	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:4350)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:4147)
+	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:4200)
+	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:4166)
+	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:4174)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:4147)
+	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:6661)
+	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:6635)
+	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:6596)
+	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:6764)
+	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:186)
+	at android.os.MessageQueue.nativePollOnce(Native Method)
+	at android.os.MessageQueue.next(MessageQueue.java:325)
+	at android.os.Looper.loop(Looper.java:142)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.dispatchTouchEvent
+
+*** entered android.app.Dialog.isShowing
+
+retval: true
+java.lang.Throwable
+	at android.app.Dialog.isShowing(Native Method)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.destroyScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:645)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onDestoryScenePayView(LiveLayoutViewerExtendActivity.java:627)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsViewerExitRoom(LiveLayoutViewerExtendActivity.java:676)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsViewerExitRoom(LivePushViewerActivity.java:367)
+	at com.fanwe.live.business.LiveViewerBusiness.exitRoom(LiveViewerBusiness.java:295)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity$5.onClickCancel(LiveLayoutViewerExtendActivity.java:604)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.onClick(SDDialogConfirm.java:187)
+	at android.view.View.performClick(View.java:6294)
+	at android.view.View$PerformClick.run(View.java:24770)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.isShowing
+
+*** entered android.app.Dialog.dismiss
+
+*** entered android.app.Dialog.dismissDialog
+
+*** entered android.app.Dialog.onDetachedFromWindow
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.onDetachedFromWindow(Native Method)
+	at com.android.internal.policy.DecorView.onDetachedFromWindow(DecorView.java:1623)
+	at android.view.View.dispatchDetachedFromWindow(View.java:17498)
+	at android.view.ViewGroup.dispatchDetachedFromWindow(ViewGroup.java:3701)
+	at android.view.ViewRootImpl.dispatchDetachedFromWindow(ViewRootImpl.java:3474)
+	at android.view.ViewRootImpl.doDie(ViewRootImpl.java:6329)
+	at android.view.ViewRootImpl.die(ViewRootImpl.java:6306)
+	at android.view.WindowManagerGlobal.removeViewLocked(WindowManagerGlobal.java:458)
+	at android.view.WindowManagerGlobal.removeView(WindowManagerGlobal.java:396)
+	at android.view.WindowManagerImpl.removeViewImmediate(WindowManagerImpl.java:124)
+	at android.app.Dialog.dismissDialog(Dialog.java:371)
+	at android.app.Dialog.dismissDialog(Native Method)
+	at android.app.Dialog.dismiss(Dialog.java:354)
+	at android.app.Dialog.dismiss(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.dismiss(SDDialogBase.java:357)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.destroyScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:647)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onDestoryScenePayView(LiveLayoutViewerExtendActivity.java:627)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsViewerExitRoom(LiveLayoutViewerExtendActivity.java:676)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsViewerExitRoom(LivePushViewerActivity.java:367)
+	at com.fanwe.live.business.LiveViewerBusiness.exitRoom(LiveViewerBusiness.java:295)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity$5.onClickCancel(LiveLayoutViewerExtendActivity.java:604)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.onClick(SDDialogConfirm.java:187)
+	at android.view.View.performClick(View.java:6294)
+	at android.view.View$PerformClick.run(View.java:24770)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.onDetachedFromWindow
+
+*** entered android.app.Dialog.onStop
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.onStop(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.onStop(SDDialogBase.java:326)
+	at android.app.Dialog.dismissDialog(Dialog.java:378)
+	at android.app.Dialog.dismissDialog(Native Method)
+	at android.app.Dialog.dismiss(Dialog.java:354)
+	at android.app.Dialog.dismiss(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.dismiss(SDDialogBase.java:357)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.destroyScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:647)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onDestoryScenePayView(LiveLayoutViewerExtendActivity.java:627)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsViewerExitRoom(LiveLayoutViewerExtendActivity.java:676)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsViewerExitRoom(LivePushViewerActivity.java:367)
+	at com.fanwe.live.business.LiveViewerBusiness.exitRoom(LiveViewerBusiness.java:295)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity$5.onClickCancel(LiveLayoutViewerExtendActivity.java:604)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.onClick(SDDialogConfirm.java:187)
+	at android.view.View.performClick(View.java:6294)
+	at android.view.View$PerformClick.run(View.java:24770)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.onStop
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.dismissDialog(Native Method)
+	at android.app.Dialog.dismiss(Dialog.java:354)
+	at android.app.Dialog.dismiss(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.dismiss(SDDialogBase.java:357)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.destroyScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:647)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onDestoryScenePayView(LiveLayoutViewerExtendActivity.java:627)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsViewerExitRoom(LiveLayoutViewerExtendActivity.java:676)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsViewerExitRoom(LivePushViewerActivity.java:367)
+	at com.fanwe.live.business.LiveViewerBusiness.exitRoom(LiveViewerBusiness.java:295)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity$5.onClickCancel(LiveLayoutViewerExtendActivity.java:604)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.onClick(SDDialogConfirm.java:187)
+	at android.view.View.performClick(View.java:6294)
+	at android.view.View$PerformClick.run(View.java:24770)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.dismissDialog
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.dismiss(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.dismiss(SDDialogBase.java:357)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.destroyScenePayJoinDialog(LiveLayoutViewerExtendActivity.java:647)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onDestoryScenePayView(LiveLayoutViewerExtendActivity.java:627)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity.onBsViewerExitRoom(LiveLayoutViewerExtendActivity.java:676)
+	at com.fanwe.live.activity.room.LivePushViewerActivity.onBsViewerExitRoom(LivePushViewerActivity.java:367)
+	at com.fanwe.live.business.LiveViewerBusiness.exitRoom(LiveViewerBusiness.java:295)
+	at com.fanwe.live.activity.room.LiveLayoutViewerExtendActivity$5.onClickCancel(LiveLayoutViewerExtendActivity.java:604)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.onClick(SDDialogConfirm.java:187)
+	at android.view.View.performClick(View.java:6294)
+	at android.view.View$PerformClick.run(View.java:24770)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.dismiss
+
+*** entered android.app.Dialog.dismiss
+
+*** entered android.app.Dialog.dismissDialog
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.dismissDialog(Native Method)
+	at android.app.Dialog.dismiss(Dialog.java:354)
+	at android.app.Dialog.dismiss(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.dismiss(SDDialogBase.java:357)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.dismissAfterClickIfNeed(SDDialogBase.java:304)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.onClick(SDDialogConfirm.java:189)
+	at android.view.View.performClick(View.java:6294)
+	at android.view.View$PerformClick.run(View.java:24770)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.dismissDialog
+
+retval: undefined
+java.lang.Throwable
+	at android.app.Dialog.dismiss(Native Method)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.dismiss(SDDialogBase.java:357)
+	at com.fanwe.lib.dialog.impl.SDDialogBase.dismissAfterClickIfNeed(SDDialogBase.java:304)
+	at com.fanwe.lib.dialog.impl.SDDialogConfirm.onClick(SDDialogConfirm.java:189)
+	at android.view.View.performClick(View.java:6294)
+	at android.view.View$PerformClick.run(View.java:24770)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+*** exiting android.app.Dialog.dismiss

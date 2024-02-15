@@ -1,0 +1,240 @@
+methods =>  public java.util.Set java.security.KeyStore$PrivateKeyEntry.getAttributes(),public java.security.cert.Certificate java.security.KeyStore$PrivateKeyEntry.getCertificate(),public java.security.cert.Certificate[] java.security.KeyStore$PrivateKeyEntry.getCertificateChain(),public java.security.PrivateKey java.security.KeyStore$PrivateKeyEntry.getPrivateKey(),public java.lang.String java.security.KeyStore$PrivateKeyEntry.toString()
+targets=> getAttributes,getCertificate,getCertificateChain,getPrivateKey,toString,$init
+Tracing java.security.KeyStore$PrivateKeyEntry.getAttributes [1 overload(s)]
+Tracing java.security.KeyStore$PrivateKeyEntry.getCertificate [1 overload(s)]
+Tracing java.security.KeyStore$PrivateKeyEntry.getCertificateChain [1 overload(s)]
+Tracing java.security.KeyStore$PrivateKeyEntry.getPrivateKey [1 overload(s)]
+Tracing java.security.KeyStore$PrivateKeyEntry.toString [1 overload(s)]
+Tracing java.security.KeyStore$PrivateKeyEntry.$init [2 overload(s)]
+
+*** entered java.security.KeyStore$PrivateKeyEntry.getCertificateChain
+
+retval: Certificate:
+    Data:
+        Version: 1 (0x0)
+        Serial Number: 0 (0x0)
+    Signature Algorithm: sha512WithRSAEncryption
+        Issuer: C=CN, ST=Shanghai, L=Shanghai, O=soul, OU=tech, CN=soulapp.cn/emailAddress=soultech_devops@soulapp.cn
+        Validity
+            Not Before: Oct 21 12:42:49 2019 GMT
+            Not After : Oct 18 12:42:49 2029 GMT
+        Subject: C=CN, ST=Shanghai, O=soul, OU=tech, L=Shanghai, CN=soulapp.cn/emailAddress=soultech_devops@soulapp.cn
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:f2:99:52:79:7e:46:b0:92:51:d7:72:48:77:38:
+                    ae:0b:d5:63:f2:df:48:93:b7:4e:aa:cf:e3:94:8c:
+                    7f:0a:82:23:60:6c:f3:e5:bd:68:c9:2d:46:02:e8:
+                    90:96:9b:b2:6e:4f:f4:78:60:3a:e2:62:6a:bc:c6:
+                    fd:8b:a2:c8:21:b2:d1:47:63:08:87:70:9d:7c:08:
+                    81:0d:bb:c5:be:fa:36:a6:86:79:fe:5a:7a:0a:cc:
+                    58:c6:6a:0e:b9:d9:e0:ff:86:d0:bb:23:32:18:3b:
+                    78:26:7a:93:93:71:ff:e8:6c:bc:c8:eb:e1:b2:76:
+                    0a:e1:ec:80:ae:df:9f:ad:15:17:6c:e1:ef:af:88:
+                    4d:9d:63:8e:23:30:6e:04:be:84:17:cd:5d:07:44:
+                    aa:61:ce:7e:b3:d3:87:e7:06:42:41:18:02:5c:8e:
+                    32:66:ad:83:8b:ce:c1:c6:49:9b:6b:0a:8e:6d:97:
+                    35:5e:83:31:74:ca:18:41:0a:95:c7:d8:49:b3:13:
+                    c4:f2:54:b3:9d:91:42:cd:5e:c3:e4:69:22:03:95:
+                    be:45:97:5c:58:03:0a:16:9a:ff:59:04:63:9a:0f:
+                    30:64:a2:63:b5:7a:70:dd:d5:b6:24:94:65:07:f4:
+                    e2:89:77:94:bb:68:86:b4:c0:eb:9f:85:46:45:73:
+                    f3:b1
+                Exponent: 65537 (0x10001)
+    Signature Algorithm: sha512WithRSAEncryption
+         64:33:89:ba:dc:be:7a:48:5b:35:03:7b:45:d3:4a:8b:cb:33:
+         a7:6a:47:41:05:42:9f:0b:84:e5:3f:72:8e:2b:16:2d:8c:87:
+         a3:54:f6:6d:ef:25:7b:b2:71:e8:f4:6a:5a:18:f0:02:d7:a4:
+         a1:07:4e:41:ad:f3:b8:69:2e:92:7a:15:d9:6c:d7:e0:84:86:
+         63:f3:4d:b1:30:fb:cb:b0:09:8d:98:46:51:24:76:2d:62:34:
+         bf:66:23:91:39:eb:c3:e3:ec:19:e8:36:08:08:6d:e5:40:d9:
+         98:b9:59:17:fe:27:3e:64:7d:fa:f4:08:d6:f2:fa:5e:3b:6b:
+         d7:1f:f8:1d:f5:ab:3d:cb:97:91:5a:cf:de:1a:5c:ae:5f:f8:
+         6d:53:d7:eb:b0:ea:85:7e:0d:ee:7d:26:90:fe:b2:0c:08:b6:
+         18:cb:ab:e6:d1:a8:9d:75:51:c0:b8:2e:db:29:b4:02:4d:c4:
+         c3:60:ba:cf:d4:27:58:59:1d:6e:c3:09:ed:c0:ce:4e:b7:84:
+         c9:b9:27:4f:25:cf:b6:91:69:9a:20:39:b4:35:09:63:65:d6:
+         9e:15:31:26:d1:eb:b0:06:63:d4:db:da:84:cb:16:e6:95:3b:
+         4e:eb:34:f4:84:78:49:fd:c6:d8:79:42:1f:4c:35:92:68:b5:
+         09:2b:54:5b
+
+
+*** exiting java.security.KeyStore$PrivateKeyEntry.getCertificateChain
+
+*** entered java.security.KeyStore$PrivateKeyEntry.getPrivateKey
+
+retval: [object Object]
+
+*** exiting java.security.KeyStore$PrivateKeyEntry.getPrivateKey
+
+*** entered java.security.KeyStore$PrivateKeyEntry.getCertificateChain
+
+retval: Certificate:
+    Data:
+        Version: 1 (0x0)
+        Serial Number: 0 (0x0)
+    Signature Algorithm: sha512WithRSAEncryption
+        Issuer: C=CN, ST=Shanghai, L=Shanghai, O=soul, OU=tech, CN=soulapp.cn/emailAddress=soultech_devops@soulapp.cn
+        Validity
+            Not Before: Oct 21 12:42:49 2019 GMT
+            Not After : Oct 18 12:42:49 2029 GMT
+        Subject: C=CN, ST=Shanghai, O=soul, OU=tech, L=Shanghai, CN=soulapp.cn/emailAddress=soultech_devops@soulapp.cn
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:f2:99:52:79:7e:46:b0:92:51:d7:72:48:77:38:
+                    ae:0b:d5:63:f2:df:48:93:b7:4e:aa:cf:e3:94:8c:
+                    7f:0a:82:23:60:6c:f3:e5:bd:68:c9:2d:46:02:e8:
+                    90:96:9b:b2:6e:4f:f4:78:60:3a:e2:62:6a:bc:c6:
+                    fd:8b:a2:c8:21:b2:d1:47:63:08:87:70:9d:7c:08:
+                    81:0d:bb:c5:be:fa:36:a6:86:79:fe:5a:7a:0a:cc:
+                    58:c6:6a:0e:b9:d9:e0:ff:86:d0:bb:23:32:18:3b:
+                    78:26:7a:93:93:71:ff:e8:6c:bc:c8:eb:e1:b2:76:
+                    0a:e1:ec:80:ae:df:9f:ad:15:17:6c:e1:ef:af:88:
+                    4d:9d:63:8e:23:30:6e:04:be:84:17:cd:5d:07:44:
+                    aa:61:ce:7e:b3:d3:87:e7:06:42:41:18:02:5c:8e:
+                    32:66:ad:83:8b:ce:c1:c6:49:9b:6b:0a:8e:6d:97:
+                    35:5e:83:31:74:ca:18:41:0a:95:c7:d8:49:b3:13:
+                    c4:f2:54:b3:9d:91:42:cd:5e:c3:e4:69:22:03:95:
+                    be:45:97:5c:58:03:0a:16:9a:ff:59:04:63:9a:0f:
+                    30:64:a2:63:b5:7a:70:dd:d5:b6:24:94:65:07:f4:
+                    e2:89:77:94:bb:68:86:b4:c0:eb:9f:85:46:45:73:
+                    f3:b1
+                Exponent: 65537 (0x10001)
+    Signature Algorithm: sha512WithRSAEncryption
+         64:33:89:ba:dc:be:7a:48:5b:35:03:7b:45:d3:4a:8b:cb:33:
+         a7:6a:47:41:05:42:9f:0b:84:e5:3f:72:8e:2b:16:2d:8c:87:
+         a3:54:f6:6d:ef:25:7b:b2:71:e8:f4:6a:5a:18:f0:02:d7:a4:
+         a1:07:4e:41:ad:f3:b8:69:2e:92:7a:15:d9:6c:d7:e0:84:86:
+         63:f3:4d:b1:30:fb:cb:b0:09:8d:98:46:51:24:76:2d:62:34:
+         bf:66:23:91:39:eb:c3:e3:ec:19:e8:36:08:08:6d:e5:40:d9:
+         98:b9:59:17:fe:27:3e:64:7d:fa:f4:08:d6:f2:fa:5e:3b:6b:
+         d7:1f:f8:1d:f5:ab:3d:cb:97:91:5a:cf:de:1a:5c:ae:5f:f8:
+         6d:53:d7:eb:b0:ea:85:7e:0d:ee:7d:26:90:fe:b2:0c:08:b6:
+         18:cb:ab:e6:d1:a8:9d:75:51:c0:b8:2e:db:29:b4:02:4d:c4:
+         c3:60:ba:cf:d4:27:58:59:1d:6e:c3:09:ed:c0:ce:4e:b7:84:
+         c9:b9:27:4f:25:cf:b6:91:69:9a:20:39:b4:35:09:63:65:d6:
+         9e:15:31:26:d1:eb:b0:06:63:d4:db:da:84:cb:16:e6:95:3b:
+         4e:eb:34:f4:84:78:49:fd:c6:d8:79:42:1f:4c:35:92:68:b5:
+         09:2b:54:5b
+
+
+*** exiting java.security.KeyStore$PrivateKeyEntry.getCertificateChain
+
+*** entered java.security.KeyStore$PrivateKeyEntry.getCertificateChain
+
+retval: Certificate:
+    Data:
+        Version: 1 (0x0)
+        Serial Number: 0 (0x0)
+    Signature Algorithm: sha512WithRSAEncryption
+        Issuer: C=CN, ST=Shanghai, L=Shanghai, O=soul, OU=tech, CN=soulapp.cn/emailAddress=soultech_devops@soulapp.cn
+        Validity
+            Not Before: Oct 21 12:42:49 2019 GMT
+            Not After : Oct 18 12:42:49 2029 GMT
+        Subject: C=CN, ST=Shanghai, O=soul, OU=tech, L=Shanghai, CN=soulapp.cn/emailAddress=soultech_devops@soulapp.cn
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:f2:99:52:79:7e:46:b0:92:51:d7:72:48:77:38:
+                    ae:0b:d5:63:f2:df:48:93:b7:4e:aa:cf:e3:94:8c:
+                    7f:0a:82:23:60:6c:f3:e5:bd:68:c9:2d:46:02:e8:
+                    90:96:9b:b2:6e:4f:f4:78:60:3a:e2:62:6a:bc:c6:
+                    fd:8b:a2:c8:21:b2:d1:47:63:08:87:70:9d:7c:08:
+                    81:0d:bb:c5:be:fa:36:a6:86:79:fe:5a:7a:0a:cc:
+                    58:c6:6a:0e:b9:d9:e0:ff:86:d0:bb:23:32:18:3b:
+                    78:26:7a:93:93:71:ff:e8:6c:bc:c8:eb:e1:b2:76:
+                    0a:e1:ec:80:ae:df:9f:ad:15:17:6c:e1:ef:af:88:
+                    4d:9d:63:8e:23:30:6e:04:be:84:17:cd:5d:07:44:
+                    aa:61:ce:7e:b3:d3:87:e7:06:42:41:18:02:5c:8e:
+                    32:66:ad:83:8b:ce:c1:c6:49:9b:6b:0a:8e:6d:97:
+                    35:5e:83:31:74:ca:18:41:0a:95:c7:d8:49:b3:13:
+                    c4:f2:54:b3:9d:91:42:cd:5e:c3:e4:69:22:03:95:
+                    be:45:97:5c:58:03:0a:16:9a:ff:59:04:63:9a:0f:
+                    30:64:a2:63:b5:7a:70:dd:d5:b6:24:94:65:07:f4:
+                    e2:89:77:94:bb:68:86:b4:c0:eb:9f:85:46:45:73:
+                    f3:b1
+                Exponent: 65537 (0x10001)
+    Signature Algorithm: sha512WithRSAEncryption
+         64:33:89:ba:dc:be:7a:48:5b:35:03:7b:45:d3:4a:8b:cb:33:
+         a7:6a:47:41:05:42:9f:0b:84:e5:3f:72:8e:2b:16:2d:8c:87:
+         a3:54:f6:6d:ef:25:7b:b2:71:e8:f4:6a:5a:18:f0:02:d7:a4:
+         a1:07:4e:41:ad:f3:b8:69:2e:92:7a:15:d9:6c:d7:e0:84:86:
+         63:f3:4d:b1:30:fb:cb:b0:09:8d:98:46:51:24:76:2d:62:34:
+         bf:66:23:91:39:eb:c3:e3:ec:19:e8:36:08:08:6d:e5:40:d9:
+         98:b9:59:17:fe:27:3e:64:7d:fa:f4:08:d6:f2:fa:5e:3b:6b:
+         d7:1f:f8:1d:f5:ab:3d:cb:97:91:5a:cf:de:1a:5c:ae:5f:f8:
+         6d:53:d7:eb:b0:ea:85:7e:0d:ee:7d:26:90:fe:b2:0c:08:b6:
+         18:cb:ab:e6:d1:a8:9d:75:51:c0:b8:2e:db:29:b4:02:4d:c4:
+         c3:60:ba:cf:d4:27:58:59:1d:6e:c3:09:ed:c0:ce:4e:b7:84:
+         c9:b9:27:4f:25:cf:b6:91:69:9a:20:39:b4:35:09:63:65:d6:
+         9e:15:31:26:d1:eb:b0:06:63:d4:db:da:84:cb:16:e6:95:3b:
+         4e:eb:34:f4:84:78:49:fd:c6:d8:79:42:1f:4c:35:92:68:b5:
+         09:2b:54:5b
+
+
+*** exiting java.security.KeyStore$PrivateKeyEntry.getCertificateChain
+
+*** entered java.security.KeyStore$PrivateKeyEntry.getPrivateKey
+
+retval: [object Object]
+
+*** exiting java.security.KeyStore$PrivateKeyEntry.getPrivateKey
+
+*** entered java.security.KeyStore$PrivateKeyEntry.getCertificateChain
+
+retval: Certificate:
+    Data:
+        Version: 1 (0x0)
+        Serial Number: 0 (0x0)
+    Signature Algorithm: sha512WithRSAEncryption
+        Issuer: C=CN, ST=Shanghai, L=Shanghai, O=soul, OU=tech, CN=soulapp.cn/emailAddress=soultech_devops@soulapp.cn
+        Validity
+            Not Before: Oct 21 12:42:49 2019 GMT
+            Not After : Oct 18 12:42:49 2029 GMT
+        Subject: C=CN, ST=Shanghai, O=soul, OU=tech, L=Shanghai, CN=soulapp.cn/emailAddress=soultech_devops@soulapp.cn
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:f2:99:52:79:7e:46:b0:92:51:d7:72:48:77:38:
+                    ae:0b:d5:63:f2:df:48:93:b7:4e:aa:cf:e3:94:8c:
+                    7f:0a:82:23:60:6c:f3:e5:bd:68:c9:2d:46:02:e8:
+                    90:96:9b:b2:6e:4f:f4:78:60:3a:e2:62:6a:bc:c6:
+                    fd:8b:a2:c8:21:b2:d1:47:63:08:87:70:9d:7c:08:
+                    81:0d:bb:c5:be:fa:36:a6:86:79:fe:5a:7a:0a:cc:
+                    58:c6:6a:0e:b9:d9:e0:ff:86:d0:bb:23:32:18:3b:
+                    78:26:7a:93:93:71:ff:e8:6c:bc:c8:eb:e1:b2:76:
+                    0a:e1:ec:80:ae:df:9f:ad:15:17:6c:e1:ef:af:88:
+                    4d:9d:63:8e:23:30:6e:04:be:84:17:cd:5d:07:44:
+                    aa:61:ce:7e:b3:d3:87:e7:06:42:41:18:02:5c:8e:
+                    32:66:ad:83:8b:ce:c1:c6:49:9b:6b:0a:8e:6d:97:
+                    35:5e:83:31:74:ca:18:41:0a:95:c7:d8:49:b3:13:
+                    c4:f2:54:b3:9d:91:42:cd:5e:c3:e4:69:22:03:95:
+                    be:45:97:5c:58:03:0a:16:9a:ff:59:04:63:9a:0f:
+                    30:64:a2:63:b5:7a:70:dd:d5:b6:24:94:65:07:f4:
+                    e2:89:77:94:bb:68:86:b4:c0:eb:9f:85:46:45:73:
+                    f3:b1
+                Exponent: 65537 (0x10001)
+    Signature Algorithm: sha512WithRSAEncryption
+         64:33:89:ba:dc:be:7a:48:5b:35:03:7b:45:d3:4a:8b:cb:33:
+         a7:6a:47:41:05:42:9f:0b:84:e5:3f:72:8e:2b:16:2d:8c:87:
+         a3:54:f6:6d:ef:25:7b:b2:71:e8:f4:6a:5a:18:f0:02:d7:a4:
+         a1:07:4e:41:ad:f3:b8:69:2e:92:7a:15:d9:6c:d7:e0:84:86:
+         63:f3:4d:b1:30:fb:cb:b0:09:8d:98:46:51:24:76:2d:62:34:
+         bf:66:23:91:39:eb:c3:e3:ec:19:e8:36:08:08:6d:e5:40:d9:
+         98:b9:59:17:fe:27:3e:64:7d:fa:f4:08:d6:f2:fa:5e:3b:6b:
+         d7:1f:f8:1d:f5:ab:3d:cb:97:91:5a:cf:de:1a:5c:ae:5f:f8:
+         6d:53:d7:eb:b0:ea:85:7e:0d:ee:7d:26:90:fe:b2:0c:08:b6:
+         18:cb:ab:e6:d1:a8:9d:75:51:c0:b8:2e:db:29:b4:02:4d:c4:
+         c3:60:ba:cf:d4:27:58:59:1d:6e:c3:09:ed:c0:ce:4e:b7:84:
+         c9:b9:27:4f:25:cf:b6:91:69:9a:20:39:b4:35:09:63:65:d6:
+         9e:15:31:26:d1:eb:b0:06:63:d4:db:da:84:cb:16:e6:95:3b:
+         4e:eb:34:f4:84:78:49:fd:c6:d8:79:42:1f:4c:35:92:68:b5:
+         09:2b:54:5b
+
+
+*** exiting java.security.KeyStore$PrivateKeyEntry.getCertificateChain

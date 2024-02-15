@@ -1,0 +1,33 @@
+{
+	"dexes":	[{
+			"location":	"/data/app/com.cz.babySister-1/base.apk",
+			"dump_path":	"/data/user/0/com.cz.babySister/unpacker/dex/_data_app_com.cz.babySister-1_base.apk_5532896.dex",
+			"class_size":	4889,
+			"current":	{
+				"index":	4888,
+				"descriptor":	"Landroid/support/v4/view/ViewCompat$Api24ViewCompatImpl;",
+				"status":	"Dumped"
+			},
+			"failures":	[{
+					"index":	1509,
+					"descriptor":	"Lcom/alibaba/fastjson/support/spring/FastJsonHttpMessageConverter;",
+					"reason":	"ResolveClass error: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/alibaba/fastjson/support/spring/FastJsonHttpMessageConverter;\n  at void cn.youlor.Unpacker.unpackNative() (Unpacker.java:-2)\n  at void cn.youlor.Unpacker$1.run() (Unpacker.java:50)\nCaused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter\n  at java.lang.Class java.lang.VMClassLoader.findLoadedClass!(java.lang.ClassLoader, java.lang.String) (VMClassLoader.java:-2)\n  at java.lang.Class java.lang.ClassLoader.findLoadedClass(java.lang.String) (ClassLoader.java:742)\n  at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:362)\n  at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)\n  at void cn.youlor.Unpacker.unpackNative() (Unpacker.java:-2)\n  at void cn.youlor.Unpacker$1.run() (Unpacker.java:50)\n"
+				}, {
+					"index":	1510,
+					"descriptor":	"Lcom/alibaba/fastjson/support/spring/FastJsonJsonView;",
+					"reason":	"ResolveClass error: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/alibaba/fastjson/support/spring/FastJsonJsonView;\n  at void cn.youlor.Unpacker.unpackNative() (Unpacker.java:-2)\n  at void cn.youlor.Unpacker$1.run() (Unpacker.java:50)\nCaused by: java.lang.ClassNotFoundException: com.alibaba.fastjson.support.spring.FastJsonJsonView\n  at java.lang.Class java.lang.VMClassLoader.findLoadedClass!(java.lang.ClassLoader, java.lang.String) (VMClassLoader.java:-2)\n  at java.lang.Class java.lang.ClassLoader.findLoadedClass(java.lang.String) (ClassLoader.java:742)\n  at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:362)\n  at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)\n  at void cn.youlor.Unpacker.unpackNative() (Unpacker.java:-2)\n  at void cn.youlor.Unpacker$1.run() (Unpacker.java:50)\n"
+				}, {
+					"index":	2383,
+					"descriptor":	"Lcom/tencent/ijk/media/exo/IjkExoMediaPlayer$SimplePlayerListener;",
+					"reason":	"ResolveClass error: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/tencent/ijk/media/exo/IjkExoMediaPlayer$SimplePlayerListener;\n  at void cn.youlor.Unpacker.unpackNative() (Unpacker.java:-2)\n  at void cn.youlor.Unpacker$1.run() (Unpacker.java:50)\nCaused by: java.lang.ClassNotFoundException: com.tencent.ijk.media.exo.IjkExoMediaPlayer$SimplePlayerListener\n  at java.lang.Class java.lang.VMClassLoader.findLoadedClass!(java.lang.ClassLoader, java.lang.String) (VMClassLoader.java:-2)\n  at java.lang.Class java.lang.ClassLoader.findLoadedClass(java.lang.String) (ClassLoader.java:742)\n  at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:362)\n  at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)\n  at void cn.youlor.Unpacker.unpackNative() (Unpacker.java:-2)\n  at void cn.youlor.Unpacker$1.run() (Unpacker.java:50)\n"
+				}, {
+					"index":	2385,
+					"descriptor":	"Lcom/tencent/ijk/media/exo/demo/EventLogger;",
+					"reason":	"ResolveClass error: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/tencent/ijk/media/exo/demo/EventLogger;\n  at void cn.youlor.Unpacker.unpackNative() (Unpacker.java:-2)\n  at void cn.youlor.Unpacker$1.run() (Unpacker.java:50)\nCaused by: java.lang.ClassNotFoundException: com.tencent.ijk.media.exo.demo.EventLogger\n  at java.lang.Class java.lang.VMClassLoader.findLoadedClass!(java.lang.ClassLoader, java.lang.String) (VMClassLoader.java:-2)\n  at java.lang.Class java.lang.ClassLoader.findLoadedClass(java.lang.String) (ClassLoader.java:742)\n  at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:362)\n  at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)\n  at void cn.youlor.Unpacker.unpackNative() (Unpacker.java:-2)\n  at void cn.youlor.Unpacker$1.run() (Unpacker.java:50)\n"
+				}, {
+					"index":	4663,
+					"descriptor":	"Lcom/tencent/ijk/media/exo/IjkExoMediaPlayer;",
+					"reason":	"ResolveClass error: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/google/android/exoplayer2/ExoPlayer$EventListener;\n  at void cn.youlor.Unpacker.unpackNative() (Unpacker.java:-2)\n  at void cn.youlor.Unpacker$1.run() (Unpacker.java:50)\nCaused by: java.lang.ClassNotFoundException: Didn't find class \"com.google.android.exoplayer2.ExoPlayer$EventListener\" on path: DexPathList[[zip file \"/data/app/com.cz.babySister-1/base.apk\"],nativeLibraryDirectories=[/data/app/com.cz.babySister-1/lib/arm, /system/fake-libs, /data/app/com.cz.babySister-1/base.apk!/lib/armeabi-v7a, /system/lib, /vendor/lib]]\n  at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:56)\n  at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:380)\n  at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)\n  at void cn.youlor.Unpacker.unpackNative() (Unpacker.java:-2)\n  at void cn.youlor.Unpacker$1.run() (Unpacker.java:50)\n"
+				}]
+		}]
+}

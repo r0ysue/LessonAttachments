@@ -1,0 +1,15 @@
+(agent) [lrxbzy1b2ea] Called javax.net.ssl.HttpsURLConnection.getDefaultHostnameVerifier()
+(agent) [lrxbzy1b2ea] Called javax.net.ssl.HttpsURLConnection.getDefaultSSLSocketFactory()
+(agent) [lrxbzy1b2ea] Called javax.net.ssl.HttpsURLConnection.getDefaultSSLSocketFactory()                               
+(agent) [nrgnn66lv3e] Called com.android.org.conscrypt.OpenSSLSocketImpl.isClosed()
+(agent) [nrgnn66lv3e] Called com.android.org.conscrypt.OpenSSLSocketImpl.isInputShutdown()
+(agent) [nrgnn66lv3e] Called com.android.org.conscrypt.OpenSSLSocketImpl.isOutputShutdown()
+(agent) [42lol483nwl] Called com.android.org.conscrypt.ConscryptFileDescriptorSocket$SSLOutputStream.write([B, int, int)
+(agent) [nrgnn66lv3e] Called com.android.org.conscrypt.OpenSSLSocketImpl.isClosed()
+(agent) [43hq04cbdn1] Called com.android.org.conscrypt.SslWrapper.write(java.io.FileDescriptor, [B, int, int, int)
+(agent) [yz4ikx9fcpb] Called com.android.org.conscrypt.ConscryptFileDescriptorSocket$SSLInputStream.read([B, int, int)
+(agent) [nrgnn66lv3e] Called com.android.org.conscrypt.OpenSSLSocketImpl.isClosed()
+(agent) [43hq04cbdn1] Called com.android.org.conscrypt.SslWrapper.read(java.io.FileDescriptor, [B, int, int, int)
+
+
+android hooking watch class_method com.android.org.conscrypt.ConscryptFileDescriptorSocket.$init
