@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+    <div id="container">
+      <child>
+          <h1 slot="header">header</h1>
+          <h1 slot="footer">footer</h1>
+      </child>
+      <child-one>
+          <template v-slot="props">
+              <li> {{props.item}}</li>
+          </template>
+      </child-one>
+    </div>
+<script>
+    Vue.component("child",{
+        template:`<div>
+<slot name="header"></slot>
+<div>body</div>
+<slot name="footer"></slot>
+</div>`
+    })
+    Vue.component("child-one",{
+        data:function (){
+            return {
+                list: [1,2,3,4]
+            }
+        },
+        template: `<div>
+        <ul>
+          <slot v-for="item in list" v-bind:item="item">
+          </slot>
+        </ul>
+        </div>`
+    })
+    var vm = new Vue({
+        el: "#container",
+    })
+</script>
+</body>
+</html>

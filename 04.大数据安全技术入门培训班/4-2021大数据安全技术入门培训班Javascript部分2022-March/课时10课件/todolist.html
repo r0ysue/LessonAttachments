@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <input type="text" v-model="inputtext"/>
+    <button @click="handleclickbtn">submit</button>
+    <ul>
+        <li v-for="(item, index) in list"
+            @click="handledeletebtn(index)"
+            v-text="item"
+        >
+        </li>
+    </ul>
+        <div v-if="type === 'A'">
+          A
+        </div>
+        <div v-else-if="type === 'B'">
+          B
+        </div>
+        <div v-else-if="type === 'C'">
+          C
+        </div>
+        <div v-else>
+          Not A/B/C
+        </div>
+        <div v-if="loginType === 'username'" key="username">
+          <label>Username</label>
+          <input placeholder="Enter your username">
+        </div>
+        <div v-else key="email">
+          <label>Email</label>
+          <input placeholder="Enter your email address">
+        </div>
+  </div>
+<script>
+  var vm = new Vue({
+    el: '#app',
+    data: {
+      inputtext: '',
+      list: [],
+      type: 'D',
+      loginType: 'username'
+    },
+    methods:{
+      handleclickbtn(){
+        this.list.push(this.inputtext)
+        this.inputtext = ''
+      },
+      handledeletebtn(index){
+        this.list.splice(index,1)
+      }
+    }
+  })
+
+</script>
+</body>
+</html>

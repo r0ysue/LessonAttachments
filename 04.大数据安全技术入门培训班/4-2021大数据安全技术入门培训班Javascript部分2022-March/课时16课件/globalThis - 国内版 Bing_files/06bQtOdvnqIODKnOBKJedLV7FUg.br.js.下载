@@ -1,0 +1,1 @@
+(function(){function r(n){if(n&&(i=0),!(i>60)){i++;var u=_w.CursorProgress||_w.CursorProgressFull;u&&u.bind();t&&sb_ct(t);t=sb_st(r,1e3)}}function n(){r(!0)}var t=null,i=0;n();sj_be(_w,"load",n);sj_evt.bind("onP1",n);sj_evt.bind("onP1Lazy",n);sj_evt.bind("ajaxReady",n);sj_evt.bind("ajax.load",n)})()

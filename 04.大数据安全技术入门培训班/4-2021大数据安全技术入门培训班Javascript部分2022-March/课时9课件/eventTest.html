@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+  <p>点击</p>
+</div>
+<script>
+    var phases = {
+  1: 'capture',
+  2: 'target',
+  3: 'bubble'
+};
+
+var div = document.querySelector('div');
+var p = document.querySelector('p');
+
+div.addEventListener('click', callback, true);
+p.addEventListener('click', callback, true);
+div.addEventListener('click', callback, false);
+p.addEventListener('click', callback, false);
+
+function callback(event) {
+  var tag = event.currentTarget.tagName;
+  var phase = phases[event.eventPhase];
+  console.log("Tag: '" + tag + "'. EventPhase: '" + phase + "'");
+}
+
+</script>
+</body>
+</html>

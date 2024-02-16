@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
+</head>
+<body>
+<!--点击此元素会自动激活验证码-->
+<!--id : 元素的id(必须)-->
+<!--data-appid : AppID(必须)-->
+<!--data-cbfn : 回调函数名(必须)-->
+<!--data-biz-state : 业务自定义透传参数(可选)-->
+<button id="TencentCaptcha"
+        data-appid="20128"
+        data-cbfn="callback"
+        type="button"
+>验证</button>
+
+<script>
+  window.callback = function(res){
+    console.log(res)
+    // res（用户主动关闭验证码）= {ret: 2, ticket: null}
+    // res（验证成功） = {ret: 0, ticket: "String", randstr: "String"}
+    if(res.ret === 0){
+        alert(res.ticket)   // 票据
+    }
+}
+</script>
+</body>
+</html>

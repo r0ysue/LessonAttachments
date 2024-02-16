@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.dingxiang-inc.com/ctu-group/captcha-ui/index.js"></script>
+</head>
+<body>
+  <div id="c1"></div>
+  <script>
+    var myCaptcha = _dx.Captcha(document.getElementById('c1'), {
+    appId: 'e7317379a1173f371bcf9fb193384f1f', //appId，在控制台中“应用管理”或“应用配置”模块获取
+    //apiServer: 'cap.dingxiang-inc.com', // 请填写这个配置，按照下面“接入域名”所示!注意：末尾不要有斜杆！
+    success: function (token) {
+      console.log('token:', token)
+    }
+})
+  </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <ul>
+        <li v-for="(item, index) in list" :key="index.id">
+            {{item.content}}
+        </li>
+        <textarea v-model.lazy="inputvalue"> </textarea>
+        <div>
+            {{inputvalue}}
+        </div>
+    </ul>
+</div>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            list: [
+                {
+                    id: "001",
+                    content: "nihao"
+                }, {
+                    id: "002",
+                    content: "dta"
+                }, {
+                    id: "003",
+                    content: "bigdata"
+                }
+            ],
+            inputvalue: ''
+        },
+    })
+
+</script>
+</body>
+</html>

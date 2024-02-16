@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas</title>
+</head>
+<body>
+<canvas id="myCanvas" width="400" height="400"
+style="border:1px solid #000000;">
+</canvas>
+
+<script>
+    function drawpic(){
+        var c=document.getElementById("myCanvas");
+        var ctx=c.getContext("2d");
+        ctx.fillStyle="#FF0000";
+        ctx.fillRect(0,0,150,75);
+    }
+    function drawline(){
+        var c=document.getElementById("myCanvas");
+        var ctx=c.getContext("2d");
+        ctx.moveTo(0,0);
+        ctx.lineTo(400,400);
+        ctx.stroke();
+    }
+    function drawarc(){
+        var c=document.getElementById("myCanvas");
+        var ctx=c.getContext("2d");
+        ctx.beginPath()
+        ctx.arc(100,75,50,0,2*Math.PI);
+        ctx.stroke()
+    }
+    function drawText(){
+        var c=document.getElementById("myCanvas");
+        var ctx=c.getContext("2d");
+        ctx.font="30px Arial";
+        ctx.fillText("Hello World",10,50);
+        ctx.strokeText("Hello World",10,100);
+    }
+</script>
+</body>
+</html>

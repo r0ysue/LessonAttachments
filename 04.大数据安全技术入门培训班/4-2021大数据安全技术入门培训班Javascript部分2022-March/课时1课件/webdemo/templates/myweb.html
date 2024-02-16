@@ -1,0 +1,184 @@
+<html>
+<head>
+    <script src="vue.js"></script>
+    <script src="md5.js"></script>
+    <script src="anonymous.js"></script>
+</head>
+<style>
+body{
+        background-image: url(./image/bg2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+</style>
+<style type="text/css">
+table.hovertable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #999999;
+    border-collapse: collapse;
+}
+table.hovertable th {
+    background-color:#c3dde0;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+table.hovertable tr {
+    background-color:#d4e3e5;
+}
+table.hovertable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+</style>
+<style>
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pagination li:first-child a {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pagination li:last-child a {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+</style>
+
+<style type="text/css">
+    .taga:visited{
+        color: yellow;
+    }
+</style>
+
+
+<body background="./image/bg2.jpg">
+
+<!--<div id="app-2">-->
+<!--  <span v-bind:title="message">-->
+<!--    鼠标悬停几秒钟查看此处动态绑定的提示信息！-->
+<!--  </span>-->
+<!--</div>-->
+
+<!--<div id="app-3">-->
+<!--  <p v-if="seen">现在你看到我了</p>-->
+<!--</div>-->
+
+<!--<div id="app-4">-->
+<!--  <ol>-->
+<!--    <li v-for="todo in todos">-->
+<!--      {{ todo.text }}-->
+<!--    </li>-->
+<!--  </ol>-->
+<!--</div>-->
+
+<!--<div id="app-5">-->
+<!--  <p>{{ message }}</p>-->
+<!--  <button v-on:click="reverseMessage">reverse</button>-->
+<!--</div>-->
+
+<!--<div id="app-6">-->
+<!--  <p>Your name is: {{ message }}</p>-->
+<!--  <input v-model="message">-->
+<!--</div>-->
+
+<!--<div id="app-7">-->
+<!--  <ol>-->
+<!--    &lt;!&ndash;-->
+<!--      现在我们为每个 todo-item 提供 todo 对象-->
+<!--      todo 对象是变量，即其内容可以是动态的。-->
+<!--      我们也需要为每个组件提供一个“key”，稍后再-->
+<!--      作详细解释。-->
+<!--    &ndash;&gt;-->
+<!--    <todo-item-->
+<!--      v-for="item in groceryList"-->
+<!--      v-bind:todo="item"-->
+<!--      v-bind:key="item.id"-->
+<!--    ></todo-item>-->
+<!--  </ol>-->
+<!--</div>-->
+
+
+
+<div style="text-align: center;">
+
+<div id="app">
+    {{message}}
+</div>
+
+<button type="button" onClick="request(1)">Request</button>
+
+<ul id="example-1">
+  <table border="1" class="hovertable" align="center">
+      <tr >
+          <th>id</th>
+          <th>name</th>
+          <th>alias</th>
+          <th>categories</th>
+          <th>minute</th>
+          <th>published_at</th>
+          <th>regions</th>
+          <th>score</th>
+      </tr>
+      <tr v-for="(item, index) in items" >
+          <th>{{ item.id }}</th>
+          <th>{{ item.name }}</th>
+          <th>{{ item.alias }}</th>
+          <th>{{ item.categories }}</th>
+          <th>{{ item.minute }}</th>
+          <th>{{ item.published_at }}</th>
+          <th>{{ item.regions }}</th>
+          <th>{{ item.score }}</th>
+      </tr>
+  </table>
+</ul>
+
+<ul class="pagination">
+      <li><a href="#">up</a></li>
+      <li><a class="taga" href="javascript:void(0);" onclick="request(1)" >1</a></li>
+      <li><a class="taga" href="javascript:void(0);" onclick="request(2)">2</a></li>
+      <li><a class="taga" href="javascript:void(0);" onclick="request(3)">3</a></li>
+      <li><a class="taga" href="javascript:void(0);" onclick="request(4)">4</a></li>
+      <li><a class="taga" href="javascript:void(0);" onclick="request(5)">5</a></li>
+      <li><a class="taga" href="#">down</a></li>
+    </ul>
+
+
+</div>
+
+
+<script src="demo.js">
+</script>
+</body>
+</html>

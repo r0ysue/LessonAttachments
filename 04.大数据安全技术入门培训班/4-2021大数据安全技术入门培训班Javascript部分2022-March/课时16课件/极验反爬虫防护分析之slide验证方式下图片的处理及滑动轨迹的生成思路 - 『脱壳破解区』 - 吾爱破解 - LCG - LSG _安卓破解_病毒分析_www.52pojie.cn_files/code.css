@@ -1,0 +1,7 @@
+pre {
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    padding: 2px;
+}
+code {font-family: Consolas, Monaco, Andale Mono, monospace;}

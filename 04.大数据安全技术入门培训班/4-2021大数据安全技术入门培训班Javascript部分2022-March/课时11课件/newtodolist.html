@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <input type="text" v-model="inputtext"/>
+    <button @click="handleclickbtn">submit</button>
+    <ul>
+        <todo-list
+                v-for="(item, index) in list"
+                v-bind:content="item"
+                v-bind:index="index"
+                @delete="handledeletebtn"
+                @click.native="handleclicknative"
+        ></todo-list>
+        <todo-list v-bind:index="123"></todo-list>
+    </ul>
+
+  </div>
+<script>
+  // Vue.component('TodoList',{
+  //   props:{
+  //       "content": {
+  //           type: String,
+  //           required: false,
+  //           default: "default dta",
+  //           validator: function (value){
+  //               return value.length > 5
+  //           }
+  //       },
+  //       "index":Number
+  //   },
+  //   template: `<li @click="handleclick">{{ mycontent }}</li>`,
+  //   data:function (){
+  //       return {
+  //           mycontent: this.content
+  //       }
+  //   },
+  //   methods: {
+  //     handleclick(){
+  //       this.mycontent = "click me"
+  //       //this.$emit("delete", this.index)
+  //     }
+  //   }
+  //
+  // })
+  var TodoList = {
+    props:{
+        "content": {
+            type: String,
+            required: false,
+            default: "default dta",
+            // validator: function (value){
+            //     return value.length > 5
+            // }
+        },
+        "index":Number
+    },
+    template: `<li @click="handleclick">{{ mycontent }}</li>`,
+    data:function (){
+        return {
+            mycontent: this.content
+        }
+    },
+    methods: {
+      handleclick(){
+        //this.mycontent = "click me"
+        this.$emit("delete", this.index)
+      }
+    }
+  }
+  var vm = new Vue({
+    el: '#app',
+    data: {
+      inputtext: '',
+      list: [],
+    },
+    methods:{
+      handleclickbtn(){
+        this.list.push(this.inputtext)
+        this.inputtext = ''
+      },
+      handledeletebtn(index){
+        this.list.splice(index, 1)
+      },
+      handleclicknative(){
+          console.log("handleclicknative")
+      }
+    },
+    components:{
+        TodoList
+    }
+  })
+
+</script>
+</body>
+</html>

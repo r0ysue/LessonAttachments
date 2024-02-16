@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <div>
+    <input type="text" />
+    <button onclick="handleclickbtn()">submit</button>
+    <ul>
+
+    </ul>
+  </div>
+<script>
+  function handleclickbtn(){
+    var input = document.getElementsByTagName("input")[0]
+    var inputvalue = input.value;
+    var ul = document.getElementsByTagName("ul")[0];
+    var li = document.createElement("li");
+    li.textContent = inputvalue
+    ul.appendChild(li);
+    input.value = ''
+  }
+
+</script>
+</body>
+</html>

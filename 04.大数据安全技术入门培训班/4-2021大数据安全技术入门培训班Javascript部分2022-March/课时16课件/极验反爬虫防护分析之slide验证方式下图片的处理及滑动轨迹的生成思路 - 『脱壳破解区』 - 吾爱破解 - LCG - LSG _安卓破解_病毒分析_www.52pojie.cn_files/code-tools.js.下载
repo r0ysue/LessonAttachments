@@ -1,0 +1,53 @@
+(function() {
+var codeTools=function(){
+	var lang = document.getElementById("zxsq-markdown-code-tools");
+	var show = lang.querySelector(".show").innerHTML;
+	var hide = lang.querySelector(".hide").innerHTML;
+	var copy = lang.querySelector(".copy").innerHTML;
+	var copysucc = lang.querySelector(".copysucc").innerHTML;
+	document.querySelectorAll("pre").forEach((a)=>{
+		if(a.firstChild.className=="hideCode"||a.firstChild.className=="CopyMyCode"||a.firstChild.className=="showCode"){
+			return;
+		}else{
+			var c = document.createElement('em');
+			c.setAttribute("class","hideCode");
+			c.style="cursor:pointer;font-size:12px;color:#369 !important;";
+			c.innerHTML=" "+hide+"<br>";
+			a.insertBefore(c,a.firstChild);
+			c.onclick=function(){
+				var a=this;
+				if(a.className=="hideCode"){
+					a.parentElement.lastChild.style.height="0px";
+					a.parentElement.lastChild.style.display="none";
+					a.parentElement.lastChild.style.overflow="hidden";
+					a.setAttribute("class","showCode");
+					a.innerHTML=" "+show+"<br>";
+				}else if(a.className=="showCode"){
+					a.parentElement.lastChild.style.height="";
+					a.parentElement.lastChild.style.display="block";
+					a.parentElement.lastChild.style.overflow="";
+					a.setAttribute("class","hideCode");
+					a.innerHTML=" "+hide+"<br>";
+				}
+			};
+			c = document.createElement('em');
+			c.setAttribute("class","CopyMyCode");
+			c.style="cursor:pointer;font-size:12px;color:#369 !important;";
+			c.innerHTML=" "+copy;
+			a.insertBefore(c,a.firstChild);
+			c.onclick=function(){
+				var container = this.parentElement.lastChild;
+				var lines = container.childNodes;
+				var code = [];
+				for (var i = 0; i < lines.length; i++) {
+					code.push(lines[i].innerText || lines[i].textContent);
+				}
+				code = code.join('');
+				setCopy(code, copysucc);
+			};
+		}
+	});
+}
+
+window.addEventListener('load', codeTools, false);
+})();

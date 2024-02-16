@@ -1,0 +1,1 @@
+(function(){function n(){sj_evt.fire("fab_vis",t())}function t(){var n=_ge("b_header");return n?_w.pageYOffset>n.offsetHeight:!1}n();sj_be(_w,"scroll",function(){n()});fab_config.shouldTrigger=t})()

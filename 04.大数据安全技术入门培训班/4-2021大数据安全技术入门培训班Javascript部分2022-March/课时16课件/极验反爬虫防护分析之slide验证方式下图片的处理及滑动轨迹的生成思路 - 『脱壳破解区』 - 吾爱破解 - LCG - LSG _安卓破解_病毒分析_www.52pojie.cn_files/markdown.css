@@ -1,0 +1,127 @@
+.parsedown-markdown h1, 
+.parsedown-markdown h2, 
+.parsedown-markdown h3, 
+.parsedown-markdown h4, 
+.parsedown-markdown h5, 
+.parsedown-markdown h6 {
+    margin:20px 0;
+    font-weight: bold;
+}
+.parsedown-markdown h1 {
+    color: #000000;
+    font-size: 28px;
+}
+.parsedown-markdown h2 {
+    border-bottom: 2px solid #CCCCCC;
+    color: #000000;
+    font-size: 24px;
+}
+.parsedown-markdown h3 {
+    border-bottom: 2px solid #CCCCCC;
+    font-size: 18px;
+}
+.parsedown-markdown h4 {
+    font-size: 16px;
+}
+.parsedown-markdown h5 {
+    font-size: 14px;
+}
+.parsedown-markdown h6 {
+    color: #777777;
+    background-color: inherit;
+    font-size: 14px;
+}
+.parsedown-markdown em {
+    font-style: italic;
+}
+.parsedown-markdown hr {
+    height: 0.2em;
+    border: 0;
+    color: #CCCCCC;
+    background-color: #CCCCCC;
+}
+.parsedown-markdown p,
+.parsedown-markdown blockquote, 
+.parsedown-markdown table, 
+.parsedown-markdown ol, 
+.parsedown-markdown ul,
+.parsedown-markdown dl, 
+.parsedown-markdown pre {
+    margin: 15px 0;
+}
+
+.parsedown-markdown li {
+	margin-left: 2px;
+}
+.parsedown-markdown ul > li{
+    list-style-type: disc;
+}
+.parsedown-markdown ol > li{
+    list-style-type: decimal;
+}
+.parsedown-markdown pre { 
+    background-color: #F8F8F8;    
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    overflow: auto;
+    padding: 2px;
+}
+.parsedown-markdown p > code, .parsedown-markdown li > code {
+    font-family: Consolas, Monaco, Andale Mono, monospace; 
+    background-color:#F8F8F8;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+.parsedown-markdown pre > code {
+    font-family: Consolas, Monaco, Andale Mono, monospace; 
+    border: 0;
+    /*margin: 2px 5px;  
+    padding: 1px;*/
+}
+  /*  background-color:#F8F8F8;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    padding: 0 0.2em;
+  /*  line-height: 1;
+}*/
+
+.parsedown-markdown a{ color: #0645ad; text-decoration:none;}
+.parsedown-markdown a:visited{ color: #0b0080; }
+.parsedown-markdown a:hover{ color: #06e; }
+.parsedown-markdown a:active{ color:#faa700; }
+.parsedown-markdown a:focus{ outline: thin dotted; }
+.parsedown-markdown a:hover, a:active{ outline: 0; }
+.parsedown-markdown ::-moz-selection{background:rgba(255,255,0,0.3);color:#000}
+.parsedown-markdown ::selection{background:rgba(255,255,0,0.3);color:#000}
+.parsedown-markdown a::-moz-selection{background:rgba(255,255,0,0.3);color:#0645ad}
+.parsedown-markdown a::selection{background:rgba(255,255,0,0.3);color:#0645ad}
+.parsedown-markdown blockquote{
+    color:#666666;
+    background-color: #F8F8F8;    
+    margin:0;
+    padding-left: 3em;
+    border-left: 0.5em #EEE solid;
+}
+.parsedown-markdown ul, 
+.parsedown-markdown ol { margin: 1em 0; padding: 0 0 0 2em; }
+.parsedown-markdown li p:last-child { margin:0 }
+.parsedown-markdown dd { margin: 0 0 0 2em; }
+.parsedown-markdown img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; max-width:100%;}
+.parsedown-markdown table {
+    margin: 1em auto;
+    border-collapse: collapse; 
+    border-spacing: 0; 
+    border: 1px solid #aaa; 
+    background-color: #f9f9f9;
+    width: 95%;
+    table-layout:auto;
+}
+.parsedown-markdown table thead {background-color: #D9E2DF;}
+.parsedown-markdown table tr,
+.parsedown-markdown table td,
+.parsedown-markdown table th {
+    margin: 0.3em;
+    padding: 0.3em;
+    border: 1px solid #aaa;
+}
+.parsedown-markdown td { vertical-align: top; }

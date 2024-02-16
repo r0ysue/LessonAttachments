@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    var preloadImage = function (path) {
+      return new Promise(function (resolve, reject) {
+        var image = new Image();
+        image.onload  = resolve;
+        image.onerror = reject;
+        image.src = path; //调用之后会去加载请求图片url onload是成功访问的回调 onerror是失败访问的回调
+      });
+    };
+    preloadImage('https://elove.darryring.com/group1/M00/1A/BC/wKgc6F8eRZeAH1wWAABUS95zAlU010.jpg')
+  .then(function (e) { document.body.append(e.target);console.log(e); })
+  .then(function () { console.log('加载成功') }).catch((error)=>{console.error(error)})
+</script>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <table>
+            <tbody>
+                <tr is="row"></tr>
+                <tr is="row"></tr>
+                <tr is="row"></tr>
+            </tbody>
+        </table>
+    </div>
+<script>
+    Vue.component("row",{
+        data:function (){
+            return {
+                content: "this is row"
+            }
+        },
+        template:"<tr><td>{{content}}</td></tr>"
+    })
+    var vm = new Vue({
+        el: "#app"
+    })
+</script>
+</body>
+</html>
