@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2017 Peter Gregus for GravityBox Project (C3C076@xda)
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ceco.nougat.gravitybox"
+    android:versionCode="750"
+    android:versionName="7.5.0" >
+
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <permission
+        android:name="gravitybox.permission.UNLOCK"
+        android:label="Permission to unlock GravityBox premium features"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="gravitybox.permission.UNLOCK" />
+
+    <application
+        android:name="com.ceco.nougat.gravitybox.GravityBoxApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:supportsRtl="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name="com.ceco.nougat.gravitybox.GravityBoxSettings"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="de.robv.android.xposed.category.MODULE_SETTINGS" />
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:name="com.ceco.nougat.gravitybox.GravityBoxSettingsAlias"
+            android:label="@string/app_name"
+            android:enabled="true"
+            android:targetActivity="com.ceco.nougat.gravitybox.GravityBoxSettings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="com.ceco.nougat.gravitybox.quicksettings.TileOrderActivity"
+            android:label="@string/quick_settings_title" >
+        </activity>
+
+        <activity
+            android:name="com.ceco.nougat.gravitybox.shortcuts.ShortcutActivity"
+            android:label="@string/shortcut_activity_title"
+            android:launchMode="singleTop"
+            android:excludeFromRecents="true"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.ceco.nougat.gravitybox.shortcuts.LaunchActivity"
+            android:label="@string/shortcut_activity_title"
+            android:launchMode="singleTop"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="gravitybox.intent.action.LAUNCH_ACTION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.ceco.nougat.gravitybox.ledcontrol.LedMainActivity"
+            android:label="@string/pref_led_control_title" >
+        </activity>
+
+        <activity
+            android:name="com.ceco.nougat.gravitybox.ledcontrol.LedControlActivity"
+            android:label="@string/pref_unc_perapp_settings_title" >
+        </activity>
+
+        <activity
+            android:name="com.ceco.nougat.gravitybox.ledcontrol.LedSettingsActivity" >
+        </activity>
+
+        <activity
+            android:name="com.ceco.nougat.gravitybox.ledcontrol.ActiveScreenActivity"
+            android:label="@string/lc_active_screen" >
+        </activity>
+
+        <activity
+            android:name="com.ceco.nougat.gravitybox.ledcontrol.QuietHoursActivity"
+            android:label="@string/lc_quiet_hours" >
+        </activity>
+
+        <activity
+            android:name="com.ceco.nougat.gravitybox.ledcontrol.RingerWhitelistActivity"
+            android:label="@string/pref_lc_qh_ringer_whitelist_title"
+            android:theme="@style/AppCompatTheme" >
+        </activity>
+
+        <activity
+            android:name="com.ceco.nougat.gravitybox.ledcontrol.QuietHoursRangeListActivity"
+            android:label="@string/lc_qh_ranges_list_label"
+            android:theme="@style/AppCompatTheme" >
+        </activity>
+
+        <activity
+            android:name="com.ceco.nougat.gravitybox.ledcontrol.QuietHoursRangeActivity"
+            android:label="@string/lc_qh_ranges_detail_label">
+        </activity>
+
+        <activity
+            android:name="com.ceco.nougat.gravitybox.tuner.TunerMainActivity"
+            android:label="@string/pref_tuner_title" >
+        </activity>
+
+        <activity
+            android:name="com.ceco.nougat.gravitybox.tuner.TunerCategoryActivity"
+            android:label="@string/pref_tuner_title" >
+        </activity>
+
+        <activity
+            android:name="com.ceco.nougat.gravitybox.tuner.TunerDetailActivity"
+            android:label="@string/pref_tuner_title" >
+        </activity>
+
+        <activity
+            android:name="com.ceco.nougat.gravitybox.UnlockActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:exported="false"
+            android:noHistory="true"
+            android:excludeFromRecents="true"
+            android:stateNotNeeded="true"
+            android:permission="gravitybox.permission.UNLOCK">
+        </activity>
+
+        <activity
+            android:name="com.ceco.nougat.gravitybox.PickImageActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:exported="false"
+            android:excludeFromRecents="true">
+        </activity>
+
+        <activity
+            android:name="com.ceco.nougat.gravitybox.WifiPriorityActivity"
+            android:label="@string/pref_wifi_priority_title" >
+        </activity>
+
+        <service android:name="com.ceco.nougat.gravitybox.GravityBoxService"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="gravitybox.intent.action.TOGGLE_SYNC" />
+                <action android:name="gravitybox.intent.action.GET_SYNC_STATUS" />
+                <action android:name="gravitybox.intent.action.SET_QUIET_HOURS_MODE" />
+            </intent-filter>
+        </service>
+
+        <service android:name="com.ceco.nougat.gravitybox.TorchService"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="gravitybox.intent.action.TOGGLE_TORCH" />
+            </intent-filter>
+        </service>
+
+        <service android:name="com.ceco.nougat.gravitybox.RecordingService"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="gravitybox.intent.action.RECORDING_START" />
+                <action android:name="gravitybox.intent.action.RECORDING_STOP" />
+            </intent-filter>
+        </service>
+
+        <service android:name="com.ceco.nougat.gravitybox.ScreenRecordingService">
+            <intent-filter>
+                <action android:name="gravitybox.intent.action.TOGGLE_SCREEN_RECORDING" />
+            </intent-filter>
+        </service>
+
+        <service android:name="com.ceco.nougat.gravitybox.KeyguardImageService" />
+
+        <receiver 
+            android:name="com.ceco.nougat.gravitybox.BootCompletedReceiver"
+            android:enabled="true"
+            android:directBootAware="true"
+            android:exported="false">
+            <intent-filter>
+                 <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver 
+            android:name="com.ceco.nougat.gravitybox.UnlockActivity$PkgManagerReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                 <action android:name="android.intent.action.PACKAGE_ADDED" />
+                 <action android:name="android.intent.action.PACKAGE_FULLY_REMOVED" />
+                 <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- GB Tile Services -->
+        <service
+                android:name=".quicksettings.GravityBoxTile$Service"
+                android:label="GravityBox"
+                android:icon="@drawable/ic_qs_gravitybox"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.NetworkModeTile$Service"
+                android:label="@string/qs_tile_network_mode"
+                android:icon="@drawable/ic_qs_lte"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.ExpandedDesktopTile$Service"
+                android:label="@string/qs_tile_expanded_desktop"
+                android:icon="@drawable/ic_qs_expanded_desktop_on"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.GpsTile$Service"
+                android:label="@string/qs_tile_gps_alt"
+                android:icon="@drawable/ic_qs_gps_enable"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.LocationTileSlimkat$Service"
+                android:label="@string/qs_tile_gps_slimkat"
+                android:icon="@drawable/ic_qs_location_on"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.LockScreenTile$Service"
+                android:label="@string/qs_tile_lock_screen"
+                android:icon="@drawable/ic_qs_lock_screen_on"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.NfcTile$Service"
+                android:label="@string/qs_tile_nfc"
+                android:icon="@drawable/ic_qs_nfc_on"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.QuickAppTile$Service1"
+                android:label="@string/qs_tile_quickapp"
+                android:icon="@android:drawable/ic_menu_help"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.QuickAppTile$Service2"
+                android:label="@string/qs_tile_quickapp_2"
+                android:icon="@android:drawable/ic_menu_help"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.QuickAppTile$Service3"
+                android:label="@string/qs_tile_quickapp_3"
+                android:icon="@android:drawable/ic_menu_help"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.QuickAppTile$Service4"
+                android:label="@string/qs_tile_quickapp_4"
+                android:icon="@android:drawable/ic_menu_help"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.QuickRecordTile$Service"
+                android:label="@string/qs_tile_quickrecord"
+                android:icon="@drawable/ic_qs_qr_recording"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.QuietHoursTile$Service"
+                android:label="@string/lc_quiet_hours"
+                android:icon="@drawable/ic_qs_quiet_hours_auto_on"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.RingerModeTile$Service"
+                android:label="@string/qs_tile_ringer_mode"
+                android:icon="@drawable/ic_qs_ring_on"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.ScreenshotTile$Service"
+                android:label="@string/qs_tile_screenshot"
+                android:icon="@drawable/ic_qs_screenshot"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.SleepTile$Service"
+                android:label="@string/qs_tile_sleep"
+                android:icon="@drawable/ic_qs_sleep"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.SmartRadioTile$Service"
+                android:label="@string/qs_tile_smart_radio"
+                android:icon="@drawable/ic_qs_smart_radio_on"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.StayAwakeTile$Service"
+                android:label="@string/qs_tile_stay_awake"
+                android:icon="@drawable/ic_qs_stayawake_on"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.SyncTile$Service"
+                android:label="@string/qs_tile_sync"
+                android:icon="@drawable/ic_qs_sync_on"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.TorchTile$Service"
+                android:label="@string/qs_tile_torch_gb"
+                android:icon="@drawable/ic_qs_torch_on"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.VolumeTile$Service"
+                android:label="@string/qs_tile_volume"
+                android:icon="@drawable/ic_qs_volume"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.CompassTile$Service"
+                android:label="@string/qs_tile_compass"
+                android:icon="@drawable/ic_qs_compass_on"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.UsbTetherTile$Service"
+                android:label="@string/qs_tile_usb_tethering"
+                android:icon="@drawable/ic_qs_usb_tether_on"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.BluetoothTetheringTile$Service"
+                android:label="@string/qs_tile_bt_tethering"
+                android:icon="@drawable/ic_qs_bt_tethering_on"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.AmbientDisplayTile$Service"
+                android:label="@string/qs_tile_ambient_display"
+                android:icon="@drawable/ic_qs_ambientdisplay_on"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+                android:name=".quicksettings.HeadsUpTile$Service"
+                android:label="@string/qs_tile_heads_up"
+                android:icon="@drawable/ic_qs_heads_up_on"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <!-- metadata -->
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="88+" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="GravityBox by C3C076@XDA" />
+    </application>
+
+</manifest>

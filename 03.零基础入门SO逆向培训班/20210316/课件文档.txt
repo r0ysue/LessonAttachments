@@ -1,0 +1,65 @@
+https://www.52pojie.cn/thread-1369661-1-1.html
+
+
+
+
+https://www.52pojie.cn/thread-1378761-1-1.html
+https://www.52pojie.cn/thread-1371527-1-1.html
+https://www.52pojie.cn/thread-1383999-1-1.html
+
+
+
+so基址+物理地址（0xB90）=
+0x7ad480b000+8AC=0x7AD480B8AC
+
+
+sub_B90((int)dest, dest_len, "areyousure??????");
+
+
+arg1: 传入明文字符串
+arg2: 明文字符串长度
+arg3: 固定字符串
+
+arg1: 出来是密文
+
+
+调试frida，又想调试ida
+必须先把frida跑起来，再挂IDA
+
+
+
+
+a ^ b =c
+明文 ^ 密钥 = 密文
+
+# 拿到密钥
+明文 ^ 密文 = 密钥
+
+
+
+0x7ad4d06000+0xB2C
+
+base64(密文) == v19
+
+data = base64.b64decode('5Gh2/y6Poq2/WIeLJfmh6yesnK7ndnJeWREFjRx8'.encode())
+v19 =5Gh2/y6Poq2/WIeLJfmh6yesnK7ndnJeWREFjRx8
+
+
+0x7ad4d06000+0xB2C
+
+base64(密文) == v19
+
+
+
+https://mp.weixin.qq.com/s/aS2WesfZN-wgo3P_POBZwQ
+
+
+
+
+0x7ad4d06000+0xB2C
+
+base64(密文) == v19
+
+data = base64.b64decode('5Gh2/y6Poq2/WIeLJfmh6yesnK7ndnJeWREFjRx8'.encode())
+v19 =5Gh2/y6Poq2/WIeLJfmh6yesnK7ndnJeWREFjRx8
+
